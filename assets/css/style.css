@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Landing page */
 
 #landing-page-flex-container {
@@ -24,7 +28,7 @@
   width: 1000px;
 }
 
-#landing-page-flex-container span{
+.btn-white{
   display: inline-block;
   min-width: 200px;
   min-height: 64px;
@@ -32,7 +36,34 @@
   border-radius: 4px;
   font-size: 32px;
   padding: 12px;
+  color: black;
 }
-#landing-page-flex-container a {
-  text-decoration: none;
+
+.btn-white:hover {
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-main:hover {
+  background-color: gold;
+}
+
+.btn-spotify:hover {
+  background-color: green;
+}
+
+.btn-youtube:hover {
+  background-color: red;
+}
+
+.btn-facebook:hover {
+  background-color: blue;
+}
+
+.btn-apple-music:hover {
+  background-color: pink;
+}
+
+.btn-twitter:hover {
+  background-color: aqua;
 }
