@@ -7,3 +7,32 @@
 }
 
 /* Landing page */
+
+#landing-page-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  min-width: 100vw;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  gap: 20px;
+}
+#landing-page-flex-container img {
+  width: 1000px;
+}
+
+#landing-page-flex-container span{
+  display: inline-block;
+  min-width: 200px;
+  min-height: 64px;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 32px;
+  padding: 12px;
+}
+#landing-page-flex-container a {
+  text-decoration: none;
+}
