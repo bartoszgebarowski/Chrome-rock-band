@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 a {
@@ -37,10 +38,6 @@ a {
   margin-top: 10px;
 }
 
-.btn-main {
-  margin-top: 20px;
-}
-
 .btn-white{
   display: inline-block;
   min-width: 200px;
@@ -50,6 +47,14 @@ a {
   font-size: 32px;
   padding: 12px;
   color: #010203;
+}
+
+.btn-main {
+  margin-top: 20px;
+  min-width: 300px;
+  min-height: 72px;
+  font-size: 40px;
+  padding: 16px;
 }
 
 .btn-white:hover {
