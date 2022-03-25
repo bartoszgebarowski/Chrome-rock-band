@@ -117,15 +117,24 @@ a {
   font-size: 28px;
 }
 
-.navbar-logo-container  {
+.logo  {
   display: inline-block;
   padding: 20px;
-}
-
-.navbar-logo-container a {
   color: #F4F4F4;
   font-family: cyber;
   font-size: 28px;
+}
+
+.logo:hover {
+  background-color: #f7f705;
+  color: #010203;
+  transition: 0.8s;
+}
+
+.navbar-container li a:hover {
+  background-color: #f7f705;
+  color: #010203;
+  transition: 0.8s;
 }
 
 /* Media queries - landing page*/
