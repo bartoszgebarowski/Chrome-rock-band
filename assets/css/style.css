@@ -86,8 +86,37 @@ a {
   background-color: #1DA1F2;
 }
 
-#social-media-links-mobile{
-  display: none;
+/* Navbar */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111111;
+  align-items: center;
+}
+
+.navbar-container ul {
+  list-style: none;
+}
+
+.navbar-container li {
+  display: inline-block;
+  min-height: 40px;
+}
+
+.navbar-container li a{
+  display: inline-block;
+  min-height: 20px;
+  padding: 12px;
+  color: #F4F4F4;
+}
+
+.navbar-logo-container  {
+  margin-left: 10px;
+}
+
+.navbar-logo-container a {
+  color: #F4F4F4;
 }
 
 /* Media queries - landing page*/
@@ -120,4 +149,3 @@ a {
     width: 600px;
   }
 }
-
