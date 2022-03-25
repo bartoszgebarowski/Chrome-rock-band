@@ -92,36 +92,25 @@ a {
 
 /* Media queries - landing page*/
 
-@media screen and (max-width: 1485px) {
-  #social-media-links-desktop .btn-white {
-    min-width: 200px;
-    min-height: 32px;
-    font-size: 26px;
-    padding: 8px;
+@media screen and (max-width: 1500px) and (min-width: 981px) {
+  .btn-social-link {
+    min-width: 100px;
+    min-height: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
   }
 }
 
-@media screen and (max-width: 1227px) {
-  #social-media-links-desktop .btn-white {
-    min-width: 160px;
-    min-height: 32px;
-    font-size: 20px;
-    padding: 8px;
+@media screen and (max-width: 980px) {
+  .btn-social-media-links-content {
+    display: none;
   }
   .btn-main {
     min-width: 250px;
     min-height: 60px;
     font-size: 30px;
     padding: 15px;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  #social-media-links-desktop  {
-    display: none;
-  }
-  #social-media-links-mobile {
-    display: inline-block;
   }
   .btn-white {
     min-width: 80px;
@@ -130,10 +119,5 @@ a {
   #landing-page-flex-container img {
     width: 600px;
   }
-  .btn-main {
-    min-width: 200px;
-    min-height: 40px;
-    font-size: 32px;
-    padding: 10px;
-  }
 }
+
