@@ -19,6 +19,11 @@ a {
   font-style: normal;
 }
 
+body {
+  background-color: #111111;
+  color: #F4F4F4;
+}
+
 /* Landing page */
 
 #landing-page-flex-container {
@@ -138,6 +143,54 @@ a {
   background-color: #f7f705;
   color: #010203;
   transition: 0.8s;
+}
+
+/* Footer - main pages */
+
+.footer-main {
+  text-align: center;
+}
+
+.footer-main a {
+  color: #F4F4F4;
+}
+
+.social-media-links-footer i {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.social-media-links-footer {
+  min-height: 60px;
+  font-size: 30px;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+.social-media-links-footer i:hover {
+  transition: 0.8s;
+}
+
+.social-media-links-footer .fa-spotify:hover {
+  color: #1DB954;
+}
+
+.social-media-links-footer .fa-youtube:hover {
+  color: #FF0000
+}
+
+.social-media-links-footer .fa-facebook:hover {
+  color: #1877f2;
+}
+
+.social-media-links-footer .fa-apple:hover {
+  color: #f94c57;
+}
+
+.social-media-links-footer .fa-twitter:hover {
+  color: #1DA1F2;
 }
 
 /* Media queries - landing page*/
