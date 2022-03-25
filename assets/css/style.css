@@ -1,5 +1,13 @@
 /* Utilities */
 
+@font-face {
+  font-family: "cyberpunkregular";
+  src: url("/assets/fonts/cyberpunk-webfont.woff2") format("woff2"),
+       url("/assets/fonts/cyberpunk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +17,6 @@
 
 a {
   text-decoration: none;
-}
-
-@font-face {
-  src: url(/assets/fonts/Cyberpunk.ttf);
-  font-family: cyber;
 }
 
 /* Landing page */
@@ -113,7 +116,7 @@ a {
   display: inline-block;
   padding: 20px;
   color: #F4F4F4;
-  font-family: cyber;
+  font-family: "cyberpunkregular";
   font-size: 28px;
 }
 
@@ -121,7 +124,7 @@ a {
   display: inline-block;
   padding: 20px;
   color: #F4F4F4;
-  font-family: cyber;
+  font-family: "cyberpunkregular";
   font-size: 28px;
 }
 
