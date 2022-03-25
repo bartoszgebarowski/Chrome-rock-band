@@ -167,3 +167,25 @@ a {
     width: 600px;
   }
 }
+
+/* Media queries - navbar*/
+
+@media screen and (max-width: 895px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-container li {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .navbar-container li a {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
