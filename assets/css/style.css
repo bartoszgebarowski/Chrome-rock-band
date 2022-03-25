@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  src: url(/assets/fonts/Cyberpunk.ttf);
+  font-family: cyber;
+}
+
 /* Landing page */
 
 #landing-page-flex-container {
@@ -101,22 +106,26 @@ a {
 
 .navbar-container li {
   display: inline-block;
-  min-height: 40px;
+
 }
 
 .navbar-container li a{
   display: inline-block;
-  min-height: 20px;
-  padding: 12px;
+  padding: 20px;
   color: #F4F4F4;
+  font-family: cyber;
+  font-size: 28px;
 }
 
 .navbar-logo-container  {
-  margin-left: 10px;
+  display: inline-block;
+  padding: 20px;
 }
 
 .navbar-logo-container a {
   color: #F4F4F4;
+  font-family: cyber;
+  font-size: 28px;
 }
 
 /* Media queries - landing page*/
