@@ -145,7 +145,47 @@ body {
   color: #010203;
   transition: 0.8s;
 }
+/* News */
 
+.news-article h2 {
+  text-align: center;
+}
+
+.news-article {
+  margin-top: 10px;
+}
+
+.news-container-flex {
+  display: flex;
+}
+
+.news-container-avatar {
+  min-width: 180px;
+}
+
+.newsman-avatar {
+  position: relative;
+}
+.newsman-avatar-caption {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  height: 40px;
+  background-color: #f7f705;
+  text-align: center;
+  color: #111111;
+  font-family: "cyberpunkregular";
+  font-size: 32px;
+}
+
+.news-date {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.news-content {
+  margin-left: 20px;
+}
 /* Footer - main pages */
 
 .footer-main {
