@@ -106,6 +106,7 @@ body {
   justify-content: space-between;
   background-color: #111111;
   align-items: center;
+  border-bottom: #f7f705 solid 5px;
 }
 
 .navbar-container ul {
@@ -149,6 +150,7 @@ body {
 
 .footer-main {
   text-align: center;
+  border-top: #f7f705 solid 5px;
 }
 
 .footer-main a {
