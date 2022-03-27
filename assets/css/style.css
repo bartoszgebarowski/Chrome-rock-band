@@ -24,6 +24,14 @@ body {
   color: #F4F4F4;
 }
 
+.active-page {
+  padding: 20px;
+  
+  font-family: "cyberpunkregular";
+  font-size: 28px;
+  background-color: #b1040b;
+}
+
 .line-content-separator {
   margin-top: 10px;
   margin-right: 15%;
@@ -122,11 +130,11 @@ body {
 
 .navbar-container ul {
   list-style: none;
+  font-size: 0px;
 }
 
 .navbar-container li {
   display: inline-block;
-
 }
 
 .navbar-container li a{
