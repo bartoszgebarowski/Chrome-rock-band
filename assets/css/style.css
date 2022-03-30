@@ -177,6 +177,8 @@ body {
 
 .news-container-flex {
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .news-container-avatar {
@@ -185,17 +187,26 @@ body {
 
 .newsman-avatar {
   position: relative;
+  width: 100%;
 }
+
+.newsman-avatar img {
+  width: 140px;
+  height: 140px;
+  margin-left: 10%;
+}
+
 .newsman-avatar-caption {
   position: absolute;
   bottom: -20px;
-  width: 100%;
+  width: 140px;
   height: 40px;
   background-color: #f7f705;
   text-align: center;
   color: #111111;
   font-family: "cyberpunkregular";
   font-size: 32px;
+  margin-left: 10%;
 }
 
 .news-post-date {
@@ -205,6 +216,7 @@ body {
 
 .news-content {
   margin-left: 20px;
+  width: 100%;
 }
 
 /* Band */
