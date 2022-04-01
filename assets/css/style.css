@@ -283,24 +283,61 @@ body {
   margin-top: 20px;
 }
 
-#dorphs-links-flex-container a {
-  color: #F4F4F4;
-  font-family: "cyberpunkregular";
-  font-size: 44px;
-  margin: 40px;
+#dorphs-links-flex-container h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#dorphs-links-flex-container a:hover {
-  border-bottom: #f7f705 solid 2px;
+#dorphs-links-flex-container p {
+  font-size: 34px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#dorphs-links-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#dorphs-links-section ul {
+  font-size: 0px;
+  list-style: none;
+}
+
+#dorphs-links-section li {
+  font-size: 32px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#dorphs-links-section a {
+  color: #FFFFFF;
+  font-family: "cyberpunkregular";
+}
+
+#dorphs-links-section a:hover {
+  border-bottom: solid #f7f705 2px;
 }
 
 .dorphs-media-flex-container {
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.dorphs-media-flex-container h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dorphs-media-flex-container p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .dorpsh-media-iframe {
@@ -426,5 +463,19 @@ body {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+}
+
+/* Media queries - dorphs page */
+
+@media screen and (max-width: 895px) {
+  .dorpsh-media-iframe {
+    height: 300px;
+    width: 350px;
+  }
+  #dorphs-links-section li {
+    display: block;
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
