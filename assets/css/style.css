@@ -283,8 +283,23 @@ body {
   text-align: center;
 }
 
+/* Gigs */
 
+#gigs-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
+.gigs-poster-container img {
+  width: 350px;
+  height: 450px;
+}
+
+.gigs-poster-container figcaption p {
+  text-align: center;
+}
 
 /* Footer - main pages */
 
