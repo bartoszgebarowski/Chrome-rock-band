@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="shortcut icon" href="./assets/img/favicon-h48px-w48px.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <title>Info bro keyboard</title>
+  <title>Contact face</title>
 </head>
 <body>
   <!-- Navbar -->
@@ -37,32 +37,50 @@
   </header>
   <!-- Main content -->
   <main>
-    <div class="contact-form-flex-container">
-      <h1>Contact us</h1>
-      <form action="./contact-form-feedback.html" method="GET">
-        <div class="contact-form-row">
-          <label for="name">Name:</label>
-          <input type="text" id="name" placeholder="John (required)" required>
-        </div>
-        <div class="contact-form-row">
-          <label for="surname">Surname:</label>
-          <input type="text" id="surname" name="surname" placeholder="Doe (required)" required>
-        </div>
-        <div class="contact-form-row">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="mymail@gmail.com (required)" required>
-        </div>
-        <div class="contact-form-row">
-          <label for="feedback">Feedback:</label>
-          <textarea id="feedback" name="feedback" placeholder="text"></textarea>
-        </div>
-        <div class="contact-form-row">
-         <button type="submit">
-           Send
-         </button>
-        </div>
-      </form>
-    </div>
+    <section id="contact-form-section">
+      <h2>Contact us</h2>
+      <p>Here's a cure for an accidental fever</p>
+      <div id="contact-form-container">
+        <form action="./contact-form-feedback.html" method="GET">
+          <ul>
+            <li>
+              <img src="./assets/img/silverhand-bust-h375-w666.webp" alt="Bust of Johnny Silverhand">
+            </li>
+            <li class="contact-form-label">
+              <span><i class="fa-solid fa-user"></i></span>
+              <label for="name">Name</label>
+            </li>
+            <li>
+              <input type="text" name="name" id="name" placeholder="John (required)" required>
+            </li>
+            <li class="contact-form-label">
+              <span><i class="fa-solid fa-user"></i></span>
+              <label for="surname">Surname</label>
+            </li>
+            <li>
+              <input type="text" name="surname" id="surname" placeholder="Doe (required)" required>
+            </li>
+            <li class="contact-form-label">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <label for="email">Email</label>
+            </li>
+            <li>
+              <input type="email" name="email" id="email" placeholder="mymail@gmail.com (required)" required>
+            </li>
+            <li class="contact-form-label">
+              <span><i class="fa-solid fa-comment"></i></span>
+              <label for="feedback">Feedback</label>
+            </li>
+            <li>
+              <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Don't be shy. You've got this!"></textarea>
+            </li>
+            <li>
+              <button id="btn-submit" type="submit">Submit</button>
+            </li>
+          </ul>
+        </form> 
+      </div>
+    </section>
   </main>
   <!-- Footer -->
   <footer class="footer-main">

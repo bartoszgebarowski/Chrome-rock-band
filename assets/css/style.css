@@ -265,11 +265,102 @@ body {
 
 /* Contact form */
 
-.contact-form-flex-container {
+#contact-form-section h2, p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contact-form-container {
   display: flex;
   justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#contact-form-container ul {
+  list-style: none;
+  font-size: 0px;
+  background-color: #f7f705;
+  border-radius: 5px;
+  color: #111111;
+}
+
+#contact-form-container ul li {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contact-form-container ul li:first-child {
+  text-align: right;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#contact-form-container ul img {
+  height: 100px;
+}
+
+#contact-form-container ul {
+  min-width: 350px;
+}
+
+#contact-form-container li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input, textarea {
+  background: transparent;
+}
+
+input { 
+  border: none;
+  border-bottom: solid 2px #111111;
+  width: 95%;
+  height: 40px;
+  outline-style: none;
+}
+
+textarea {
+  outline-style: none;
+  resize: none;
+  border: none;
+  width: 95%;
+  border-bottom: solid 2px #111111;
+}
+
+label {
+  font-family: "cyberpunkregular";
+}
+
+input::placeholder, textarea::placeholder {
+  color: #111111;
+  opacity: 1;
+  font-size: 16px;
+}
+
+li:nth-last-child(1) {
   text-align: center;
-  flex-direction: column;
+}
+
+#btn-submit {
+  margin-bottom: 20px;
+  display: inline-block;
+  min-width: 200px;
+  min-height: 64px;
+  background-color: #F4F4F4;
+  border-radius: 4px;
+  font-size: 32px;
+  padding: 12px;
+  color: #010203;
+  border: none;
+}
+
+#btn-submit:hover {
+  background-color: #111111;
+  color: #F4F4F4;
+  transition: 0.8s;
 }
 
 /* Dorphs */
