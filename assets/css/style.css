@@ -466,6 +466,37 @@ body {
   }
 }
 
+/* Media queries - news articles */
+
+@media screen and (max-width: 550px) {
+  .newsman-avatar img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .newsman-avatar-caption {
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    bottom: -10px;
+  }
+
+  .news-container-avatar {
+    min-width: 60px;
+  }
+
+  .news-post-date {
+    font-size: 14px;
+    margin-left: 9px;
+    margin-top: 9px;
+  }
+
+  .news-container-flex {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
 /* Media queries - dorphs page */
 
 @media screen and (max-width: 895px) {
@@ -473,6 +504,7 @@ body {
     height: 300px;
     width: 350px;
   }
+
   #dorphs-links-section li {
     display: block;
     margin-left: 0;
