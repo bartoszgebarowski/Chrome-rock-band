@@ -26,10 +26,9 @@ body {
 
 .active-page {
   padding: 20px;
-  
   font-family: "cyberpunkregular";
   font-size: 28px;
-  background-color: #b1040b;
+  background-color: #b1040b; 
 }
 
 .line-content-separator {
@@ -45,32 +44,35 @@ body {
 
 /* Landing page */
 
-#landing-page-flex-container {
+#landing-page-top-container-flex {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: nowrap;
+  align-items: center;
   flex-direction: column;
-  min-width: 100vw;
-  height: 100vh;
-  background-color: #111111;
+  margin-top: 10%;
+}
+
+#landing-page-top-container-flex img {
+  width: 40%;
+}
+
+#landing-page-middle-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  gap: 20px;
 }
 
-#landing-page-flex-container img {
-  width: 1000px;
-}
-
-#welcome-msg-landing-page {
-  color: #FFFFFF;
-}
-
-#welcome-msg-landing-page p {
+#landing-page-bottom-container-flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
   margin-top: 10px;
+  margin-bottom: 10%;
 }
 
-.btn-white{
+.btn-white {
   display: inline-block;
   min-width: 200px;
   min-height: 64px;
@@ -79,7 +81,6 @@ body {
   font-size: 32px;
   padding: 12px;
   color: #010203;
-  margin-left: 10px;
 }
 
 .btn-main {
@@ -441,6 +442,7 @@ li:nth-last-child(1) {
   width: 560px;
   height: 315px;
 }
+
 /* Gigs */
 
 #gigs-flex-container {
@@ -510,7 +512,7 @@ li:nth-last-child(1) {
 
 /* Media queries - landing page*/
 
-@media screen and (max-width: 1500px) and (min-width: 981px) {
+@media screen and (min-width: 981px) {
   .btn-social-link {
     min-width: 100px;
     min-height: 20px;
@@ -524,18 +526,33 @@ li:nth-last-child(1) {
   .btn-social-media-links-content {
     display: none;
   }
+
+  #landing-page-top-container-flex {
+    margin-top: 15%;
+  }
+
+  #landing-page-top-container-flex img {
+    width: 100%;
+  }
+  
   .btn-main {
     min-width: 250px;
     min-height: 60px;
     font-size: 30px;
     padding: 15px;
   }
+
   .btn-white {
-    min-width: 80px;
+    min-width: 60px;
     margin-top: 10px;
   }
-  #landing-page-flex-container img {
-    width: 600px;
+}
+
+@media screen and (max-width: 360px) {
+  .btn-white {
+    font-size: 12px;
+    min-width: 40px;
+    min-height: 20px;
   }
 }
 
@@ -545,10 +562,12 @@ li:nth-last-child(1) {
   .navbar-container {
     flex-direction: column;
   }
+
   .logo {
     width: 100%;
     text-align: center;
   }
+  
   .navbar-container li {
     width: 100vw;
     text-align: center;
