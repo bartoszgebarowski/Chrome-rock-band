@@ -271,7 +271,7 @@ body {
 
 /* Contact form */
 
-#contact-form-section h2, p {
+#contact-form-section h2, #contact-form-section h2 p {
   text-align: center;
   margin-top: 20px;
 }
@@ -571,7 +571,7 @@ footer a {
   }
   
   .navbar-container li {
-    width: 100vw;
+    width: 100%;
     text-align: center;
   }
 
