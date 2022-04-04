@@ -418,31 +418,43 @@ li:nth-last-child(1) {
   border-bottom: solid #f7f705 2px;
 }
 
-.dorphs-media-flex-container {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.dorphs-section-heading-container-flex {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: center;
-}
-
-.dorphs-media-flex-container h2 {
-  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.dorphs-media-flex-container p {
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
-.dorpsh-media-iframe {
+.dorphs-media-player-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dorphs-media-container {
+  width: 350px;
+  height: 450px;
+}
+
+.dorphs-media-container iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
   border: none;
-  border-radius: 12px;
-  width: 560px;
-  height: 315px;
 }
+
+#shop-logo-container {
+  height: 242px;
+  width: 208px;
+}
+
+#shop-logo-container img {
+  width: 100%;
+  height: 100%;
+} 
 
 /* Gigs */
 
@@ -616,11 +628,6 @@ footer a {
 /* Media queries - dorphs page */
 
 @media screen and (max-width: 895px) {
-  .dorpsh-media-iframe {
-    height: 300px;
-    width: 350px;
-  }
-
   #dorphs-links-section li {
     display: block;
     margin-left: 0;
