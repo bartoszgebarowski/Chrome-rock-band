@@ -50,6 +50,14 @@ footer {
   border-radius: 2px;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+}
+
 /* Landing page */
 
 #landing-page-top-container-flex {
@@ -264,6 +272,9 @@ footer {
   top: 0;
   opacity: 0;
   text-align: center;
+}
+
+.samurai-member-fig figcaption p {
   font-size: 32px;
 }
 
@@ -278,7 +289,7 @@ footer {
 
 /* Contact form */
 
-.contact-form-heading-container-flex {
+#contact-form-heading-container-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,12 +302,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-
-#contact-form-section h2, #contact-form-section p {
-  text-align: center;
-  margin-top: 20px;
 }
 
 #contact-form-container {
@@ -361,7 +366,7 @@ textarea {
   border-bottom: solid 2px #111111;
 }
 
-label {
+.contact-form-label label {
   font-family: "cyberpunkregular";
 }
 
@@ -528,6 +533,7 @@ footer a {
 
 .copyright {
   margin-top: 10px;
+  font-size: 16px;
 }
 
 .social-media-links-footer i:hover {
