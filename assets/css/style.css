@@ -190,54 +190,72 @@ p {
 
 .news-article {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .news-container-flex {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.news-container-avatar {
-  min-width: 180px;
+.news-container-avatar-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 180px;
 }
 
-.newsman-avatar {
-  position: relative;
-  width: 100%;
+.newswman-avatar-container {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f7f705;
 }
 
-.newsman-avatar img {
-  width: 140px;
-  height: 140px;
-  margin-left: 10%;
-}
-
-.newsman-avatar-caption {
-  position: absolute;
-  bottom: -20px;
-  width: 140px;
-  height: 40px;
+.newsman-rank {
   background-color: #f7f705;
-  text-align: center;
   color: #111111;
   font-family: "cyberpunkregular";
-  font-size: 32px;
-  margin-left: 10%;
-}
-
-.news-post-date {
-  margin-top: 20px;
+  font-size: 12px;
+  width: 100%;
   text-align: center;
+  height: 24px;
+  padding: 4px;
 }
 
-.news-content {
+.newswman-avatar-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-post-date p {
+  font-size: 12px;
+}
+
+.news-content-container-flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
   margin-left: 20px;
   width: 100%;
 }
 
-.news-content p {
-  text-align: left;
+.news-content-container-flex p, .news-content-container-flex h3{
+  text-align: center;
+}
+
+.news-media-container {
+  max-height: 300px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.news-media-container img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Band */
@@ -636,34 +654,6 @@ footer a {
 
 /* Media queries - news articles */
 
-@media screen and (max-width: 550px) {
-  .newsman-avatar img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .newsman-avatar-caption {
-    width: 60px;
-    height: 20px;
-    font-size: 14px;
-    bottom: -10px;
-  }
-
-  .news-container-avatar {
-    min-width: 60px;
-  }
-
-  .news-post-date {
-    font-size: 14px;
-    margin-left: 9px;
-    margin-top: 9px;
-  }
-
-  .news-container-flex {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-}
 
 /* Media queries - dorphs page */
 
@@ -672,6 +662,13 @@ footer a {
     display: block;
     margin-left: 0;
     margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 895px) {
+  .dorphs-media-container { 
+    height: 600px;
+    width: 800px;
   }
 }
 
