@@ -20,6 +20,13 @@ a {
   text-decoration: none;
 }
 
+.logo  {
+  padding: 20px;
+  color: #F4F4F4;
+  font-family: "cyberpunkregular";
+  font-size: 28px;
+}
+
 body {
   background-color: #111111;
   color: #F4F4F4;
@@ -160,20 +167,6 @@ p {
   color: #F4F4F4;
   font-family: "cyberpunkregular";
   font-size: 28px;
-}
-
-.logo  {
-  display: inline-block;
-  padding: 20px;
-  color: #F4F4F4;
-  font-family: "cyberpunkregular";
-  font-size: 28px;
-}
-
-.logo:hover {
-  background-color: #f7f705;
-  color: #010203;
-  transition: 0.8s;
 }
 
 .navbar-container li a:hover {
