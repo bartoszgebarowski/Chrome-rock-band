@@ -75,7 +75,7 @@ main {
 }
 
 .bottom-navigation-bar-container-flex {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
@@ -632,7 +632,7 @@ footer a {
   color: #1DA1F2;
 }
 
-/* Media queries - landing page*/
+/* Media queries */
 
 @media screen and (min-width: 981px) {
   .btn-social-link {
@@ -678,8 +678,6 @@ footer a {
   }
 }
 
-/* Media queries - navbar*/
-
 @media screen and (max-width: 895px) {
   .navbar-container {
     flex-direction: column;
@@ -704,18 +702,14 @@ footer a {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-}
 
-/* Media queries - news articles */
-
-
-/* Media queries - dorphs page */
-
-@media screen and (max-width: 895px) {
-  #dorphs-links-section li {
+   #dorphs-links-section li {
     display: block;
     margin-left: 0;
     margin-top: 10px;
+  }
+  .bottom-navigation-bar-container-flex {
+    display: flex;
   }
 }
 
@@ -729,8 +723,6 @@ footer a {
     width: 800px;
   }
 }
-
-/* Media queries - contact form */
 
 @media screen and (min-width: 495px) {
   #contact-form-container {
