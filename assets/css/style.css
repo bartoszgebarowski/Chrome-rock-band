@@ -25,6 +25,7 @@ a {
   color: #F4F4F4;
   font-family: "cyberpunkregular";
   font-size: 28px;
+  font-weight: normal;
 }
 
 body {
@@ -63,6 +64,28 @@ h2 {
 
 p {
   font-size: 16px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/* 404 error */
+
+#error-404-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#error-404-iframe-container {
+  width: 350px;
+  height: 450px;
+  margin: auto;
+}
+
+#error-404-iframe-container iframe {
+  width: 100%;
+  height: 100%;
 }
 
 /* Landing page */
@@ -660,6 +683,10 @@ footer a {
 
 @media screen and (min-width: 895px) {
   .dorphs-media-container { 
+    height: 600px;
+    width: 800px;
+  }
+  #error-404-iframe-container {
     height: 600px;
     width: 800px;
   }

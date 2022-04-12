@@ -9,16 +9,16 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="shortcut icon" href="./assets/img/favicon-h48px-w48px.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <title>Wake the f**k up samurai. We have a city to burn.</title>
+  <title>Error 404. Page not found.</title>
 </head>
 <body>
   <!-- Navbar -->
   <header>
     <nav class="navbar-container">
-      <p class="logo">Samurai</p>
+      <h1 id="logo" class="logo">Samurai</h1>
       <ul>
-        <li class="active-page">
-          News
+        <li>
+          <a href="./main.html" aria-label="News">News</a>
         </li>
         <li>
           <a href="./gigs.html" aria-label="Information about planned concerts">Gigs</a>
@@ -37,10 +37,12 @@
   </header>
   <!-- Main content -->
   <main>
-    <section>
-      <h1>404 error</h1>
-      <p>placeholder text</p>
-      <p>video</p>
+    <section id="error-404-section">
+      <h2 class="text-align-center">Malfunction 404</h2>
+      <p class="text-align-center">It seems that something went wrong. Take out your BD wreath and rest for a while or use one of the links to return to main website.</p>
+      <div id="error-404-iframe-container">
+        <iframe src="https://www.youtube.com/embed/GYVL9C0UpEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
   </main>
   <!-- Footer -->
