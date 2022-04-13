@@ -284,7 +284,7 @@ main {
 }
 
 .news-post-date p {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .news-content-container-flex {
@@ -292,7 +292,7 @@ main {
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-left: 20px;
+  margin-left: -60px;
   width: 100%;
 }
 
@@ -696,6 +696,15 @@ footer a {
   }
   .bottom-navigation-bar-container-flex {
     display: flex;
+  }
+
+  .news-container-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-content-container-flex {
+    margin-left: 0px;
   }
 }
 
