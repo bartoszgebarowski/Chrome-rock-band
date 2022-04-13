@@ -460,6 +460,25 @@ input::placeholder, textarea::placeholder {
   transition: 0.8s;
 }
 
+/* Form feedback */
+
+.feedback-section {
+  margin: 10px 40px;
+}
+
+#contact-form-feedback-iframe-container {
+  height: 450px;
+  width: 350px;
+  margin: auto;
+}
+
+#contact-form-feedback-iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
 /* Dorphs */
 
 #dorphs-links-flex-container {
@@ -695,11 +714,7 @@ footer a {
 }
 
 @media screen and (min-width: 895px) {
-  .dorphs-media-container { 
-    height: 600px;
-    width: 800px;
-  }
-  #error-404-iframe-container {
+  .dorphs-media-container, #contact-form-feedback-iframe-container, #error-404-iframe-container  { 
     height: 600px;
     width: 800px;
   }
