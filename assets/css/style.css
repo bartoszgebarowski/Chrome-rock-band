@@ -94,6 +94,10 @@ main {
   color: #f7f705;
 }
 
+.margin-top-2p {
+  margin-top: 2%;
+}
+
 /* 404 error */
 
 #error-404-section {
