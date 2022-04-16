@@ -31,6 +31,10 @@ Portfolio Project One
 1. [Testing](#testing)
     * [Unfixed Bugs](#unfixed-bugs)
 1. [Deployment](#deployment)
+    * [Version control](#version-control)
+    * [Deployment to github pages](#deployment-to-github-pages)
+    * [Clone the repository locally](#clone-the-repository-locally)
+    * [Pull requests](#pull-requests)
 1. [Credits](#credits)
     * [Honorable mentions](#honorable-mentions)
     * [Content](#content)
@@ -173,16 +177,68 @@ https://contrast-grid.eightshapes.com/
 
 ## Deployment
 
+### Version Control 
+
+Website was created in Virtual Studio Code editor, and changes were pushed to github repository https://github.com/bartoszgebarowski/chrome-rock-band by using bash terminal. 
+
+Following commands were used:
+
+```git status``` - This command was used check files staged and not staged for commit
+
+```git add <file.extension>``` -  This command was used add changes in file/files, with particular name and extension, to be staged for commit
+
+```git add .``` - This command was used to add changes in all files, regardless of name and extension, to be staged for commit
+
+```git commit -m "commit message"``` - This command was used to commit all staged changes to local repository
+
+```git push``` - This command was used to upload all commited locally changes to github repository
+
+[Back to Table of contents](#table-of-contents)
+
+### Deployment to Github pages
+
+The site was deployed to Github by taking following steps:
+
+* Navigating to Settings tab
+* Navigating to Pages tab in the menu on the left
+* Selecting Branch from which the site is to be built
+* Clicking Save
+* Receiving confirmation stating that "Your site is published at https://bartoszgebarowski.github.io/repository-name/"
+
+(Side note: It took several minutes, before site gone live)
+
+Live site can be found at the link below:
+
+https://bartoszgebarowski.github.io/chrome-rock-band/
+
+[Back to Table of contents](#table-of-contents)
+
+### Clone the Repository locally 
+
+* Click the Code button
+* Navgitate to HTTPS tab
+* Click the clipboard copy icon (message "Copied" should apear instead the icon)
+* Choose the IDE with git bash support
+* Use command ```git clone copied-url``` into bash terminal
+
+[Back to Table of contents](#table-of-contents)
+
+### Pull requests
+
+Permission to push changes to repository was not and will not be granted.
+
 [Back to Table of contents](#table-of-contents)
 
 ## Credits
 
 ### Honorable mentions
 
-* Daisy McGirr - tutor of the Code Institute who helped me on my journey on every occasion
-* David Bowers - sharing plethora of information during Project Portfolio 1 webinar
+* Daisy McGirr - tutor of the Code Institute who helped me through my studies on every occasion and hour
+* David Bowers - fellow student, that shared plethora of information during Project Portfolio 1 webinar
 * Anna Sosnowska - a friend, for her constant moral support
 * Tobiasz Chodarewicz - a friend, who inspired me to sign up with Code Institute
+* Developers CD Projekt RED - for creating an amazing and believable world based on the tabletop role-playing game by Mike Pondsmith
+* Refused - for excellent portrayal of Samurai band. 
 * You - for visiting my repository and reading the documentation
 
 You all, are truly breathtaking.
@@ -191,8 +247,40 @@ You all, are truly breathtaking.
 
 ### Content 
 
+The content is styled according to the language and naming convention of Cyberpunk 2077. All names, brands and images are the intellectual property of their respective owners.
+
 [Back to Table of contents](#table-of-contents)
 
 ### Media
+* Used across all pages 
+    * https://www.nexusmods.com/cyberpunk2077/mods/620 favicon by AlyssonC 
+    * https://fontsrepo.com/cyberpunk-2077-free-font/ cyberpunk font
+* Landing page 
+    * https://www.gran-turismo.com/us/gtsport/user/discover/recentlyLike/decal/decal/9360580/8367763984764371984 by NegrX
+* Main page
+    * https://cyberpunk2077.wiki.fextralife.com/Scrapper newsman avatar 
+    * https://www.empik.com/archangel,p1294439514,ebooki-i-mp3-p "Archangel" single cover
+    * https://cyberpunk.fandom.com/wiki/A_Like_Supreme_(song) "A like Supreme" single cover
+    * https://cyberpunk.fandom.com/wiki/Black_Dog_(song) "Black Dog" single cover
+* Gigs page 
+    * https://cyberpunk.fandom.com/wiki/Samurai?file=CP2077_Samurai_Poster1.jpg poster 1
+    * https://cyberpunk.fandom.com/wiki/Samurai?file=CP2077_Samurai_Poster2.jpg poster 2
+    * https://unsplash.com/photos/RnCPiXixooY "Multicolored Hallway" by Efe Kurnaz 
+* Dorphs page 
+    * https://www.youtube.com/watch?v=xkOaYwFJEK4 "Samurai" live concert (Chippin' In) @ Night City Area Rapid Transit Subway stairwell, video uploader: boxhed95 
+    * Spotify API 
+    * https://gear.cdprojektred.com/ CP Projekt RED Gear logo
+* Band page
+    * https://cyberpunk.fandom.com/wiki/Johnny_Silverhand Johnny Silverhand photo
+    * https://tvtropes.org/pmwiki/pmwiki.php/Characters/Cyberpunk2077MainCharactersAndAllies Kerry Eurodyne photo
+    * https://cyberpunk.fandom.com/wiki/Bes_Isis Nancy Hartley photo
+    * https://cyberpunk.fandom.com/wiki/Denny Denny photo
+    * https://cyberpunk.fandom.com/wiki/Henry Henry photo
+* Contact face page: 
+    * https://www.reddit.com/r/XboxSeriesX/comments/ka40aq/would_you_like_a_johnny_silverhand_user_flair/ by F0REM4N
+* Contact form feedback page: 
+    * https://www.youtube.com/watch?v=vMIf7DKzWEM&t=21s by Damian Ukeje, P.T Adamczyk, Borys Pugacz-Muraszkiewicz, video uploader: Carlos Aragon
+* Error 404 page
+    * https://www.youtube.com/watch?v=GYVL9C0UpEU "Johnny Silverhand Plays Guitar at Secret Dev Room | Cyberpunk 2077 | Wallpaper Engine", video uploader: Mário Ďak
 
 [Back to Table of contents](#table-of-contents)
