@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=m1kYOo9UxBw
 
 Material above served as promotional material during E3 event. This is an iconic and well-known quote that it would be a huge oversight not to include it in the project.
 
-![Am i responsive screenshot](docs\readme_images\am-i-responsive.png)
+![Am i responsive screenshot](/docs/readme_images/am-i-responsive.png)
 
 ## Table of contents:
 
@@ -82,7 +82,7 @@ These features are common to all pages (besides landing page, that serves specif
 
 #### Favicon
 
-![Favicon](docs\readme_images\favicon.png) 
+![Favicon](docs/readme_images/favicon.png) 
 
 Element that is present across all pages. Allows user to easily identify the page, if they have multiple open tabs
 
@@ -94,10 +94,10 @@ Element that is present across all pages. Allows user to easily identify the pag
     * The display of the navigation bar changes depending on screen size
 
 Navigation bar: Desktop view
-![Navigation bar desktop](docs\readme_images\navbar-desktop.png)
+![Navigation bar desktop](docs/readme_images/navbar-desktop.png)
 
 Navigation bar: Mobile view
-![Navigation bar mobile](docs\readme_images\navbar-mobile.png)
+![Navigation bar mobile](docs/readme_images/navbar-mobile.png)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -105,7 +105,7 @@ Navigation bar: Mobile view
 
 * Serves as an additional visual indication of which page is currently displayed.
 
-![Active page indicator](docs\readme_images\active-page.png)
+![Active page indicator](docs/readme_images/active-page.png)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -113,13 +113,13 @@ Navigation bar: Mobile view
 
 * Informs the user that it is an interactive element
 
-![Hover indicator](docs\readme_images\hover-indicator.png)
+![Hover indicator](docs/readme_images/hover-indicator.png)
 
 [Back to Table of contents](#table-of-contents)
 
 #### Footer
 
-![Footer](docs\readme_images\footer.png)
+![Footer](docs/readme_images/footer.png)
 
 * It serves as quick access to social media and informs that the website was created for educational purposes only
 
@@ -129,7 +129,7 @@ Navigation bar: Mobile view
 
 * It allows mobile users to quickly access the main navigation menu
 
-![Return to top button: mobile](docs\readme_images\top-mobile.png)
+![Return to top button: mobile](docs/readme_images/top-mobile.png)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -137,7 +137,7 @@ Navigation bar: Mobile view
 
 * The line separator is a visual representation of the structure of a website and allows the user to easily distinguish the beginning and end of content
 
-![Content line separator](docs\readme_images\content-separator-line.png)
+![Content line separator](docs/readme_images/content-separator-line.png)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -145,7 +145,7 @@ Navigation bar: Mobile view
 
 * The 404 error page has been implemented to ensure that if one of the pages is mistyped, the user can easily return to any page
 
-![Error 404 screenshot](docs\readme_images\error-404.png)
+![Error 404 screenshot](docs/readme_images/error-404.png)
 
 [Back to Table of contents](#table-of-contents)
 
