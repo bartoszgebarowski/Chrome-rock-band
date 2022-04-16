@@ -2,12 +2,46 @@
 
 ## Site overview
 
-Portfolio Project One 
+Chrome rock band is a website that treats Samurai band as real, separate entity from Cyberpunk 2077. The game itself is set in a dystopian environment, ruled by large corporations and full of social inequalities. 
+The music in the game was performed by real musicians from Refused, and Johnny Silverhand's appearance was modeled after popular actor Keanu Reeves. He is also Johnny's voice in the game.
+Judging from the monthly Spotify listeners and the views of each song on Youtube, there is a strong incentive to create a website that features Refused's alter ego in-game, as many fans of the game seem to have liked this kind of musicians incarnation. This website aims to fulfill, to some extent, this purpose while remaining faithful to the source material. The project was built to answer following, potential users needs:
+
+* Can i check the band's new releases ??
+* When i can hear them live ? 
+* Can I listen to their music for free?
+* Is there any band's merchandise that i can buy ?
+* What instruments are they playing on ?
+* How i can contact them ? 
+
+While some of these needs are beyond the scope of this project, the author of this website has endeavored to answer all of these questions in order to take full advantage of the newly acquired skills.
+
+As a side note: although this site contains slang elements, it generally avoids the use of swearing, with one exception (it was censored during the development process)
+
+https://www.youtube.com/watch?v=m1kYOo9UxBw
+
+Material above served as promotional material during E3 event. This is an iconic and well-known quote that it would be a huge oversight not to include it in the project.
+
+![Am i responsive screenshot](docs\readme_images\am-i-responsive.png)
 
 ## Table of contents:
 
 1. [Site overview](#site-overview)
 1. [Features](#features)
+    * [Site wide](#site-wide)
+        * [Favicon](#favicon)
+        * [Responsive navigation bar](#responsive-navigation-bar)
+            * [Hover indicator](#hover-indicator)
+            * [Active page indicator](#active-page-indicator)
+        * [Footer](#footer)
+        * [Return to top button: mobile](#return-to-top-button-mobile)
+        * [Error 404 page](#error-404-page)
+    * [Landing page](#landing-page)
+    * [Gigs page](#gigs-page)
+    * [Dorphs page](#dorphs-page)
+    * [Contact face page](#contact-face-page)
+    * [Contact form feedback page](#contact-form-feedback-page)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
 1. [Design](#design)
     * [Color scheme](#color-scheme)
     * [Wireframes](#wireframes)
@@ -27,7 +61,7 @@ Portfolio Project One
       * [Contact feedback page: mobile](#contact-feedback-page-mobile)
       * [Error 404 page: desktop](#error-404-page-desktop)
       * [Error 404 page: mobile](#error-404-page-mobile)
-1. [Technologies](#technologies)
+1. [Technologies and Tools](#technologies-and-tools)
 1. [Testing](#testing)
     * [Unfixed Bugs](#unfixed-bugs)
 1. [Deployment](#deployment)
@@ -42,11 +76,118 @@ Portfolio Project One
 
 ## Features
 
+### Site wide 
+
+These features are common to all pages (besides landing page, that serves specific purpose in website structure) 
+
+#### Favicon
+
+![Favicon](docs\readme_images\favicon.png) 
+
+Element that is present across all pages. Allows user to easily identify the page, if they have multiple open tabs
+
+[Back to Table of contents](#table-of-contents)
+
+#### Responsive navigation bar
+
+* Contains the logo and links to News page, Gigs page, Dorphs page, Band page and Contact face page
+    * The display of the navigation bar changes depending on screen size
+
+Navigation bar: Desktop view
+![Navigation bar desktop](docs\readme_images\navbar-desktop.png)
+
+Navigation bar: Mobile view
+![Navigation bar mobile](docs\readme_images\navbar-mobile.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Active page indicator
+
+* Serves as an additional visual indication of which page is currently displayed.
+
+![Active page indicator](docs\readme_images\active-page.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Hover indicator
+
+* Informs the user that it is an interactive element
+
+![Hover indicator](docs\readme_images\hover-indicator.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Footer
+
+![Footer](docs\readme_images\footer.png)
+
+* It serves as quick access to social media and informs that the website was created for educational purposes only
+
+[Back to Table of contents](#table-of-contents)
+
+#### Return to top button: mobile
+
+* It allows mobile users to quickly access the main navigation menu
+
+![Return to top button: mobile](docs\readme_images\top-mobile.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Content line separator
+
+* The line separator is a visual representation of the structure of a website and allows the user to easily distinguish the beginning and end of content
+
+![Content line separator](docs\readme_images\content-separator-line.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Error 404 page
+
+* The 404 error page has been implemented to ensure that if one of the pages is mistyped, the user can easily return to any page
+
+![Error 404 screenshot](docs\readme_images\error-404.png)
+
+[Back to Table of contents](#table-of-contents)
+
+### Landing page
+
+### Main page (News page)
+
+### Gigs page
+
+### Dorphs page
+
+### Contact face page
+
+### Contact form feedback page
+
+### Existing Features 
+
+* Responsive design 
+* Design that respects source material. It acknowledges Cyberpunk lore, naming conventions used by Cyberpunk 2077 designers. It takes certain liberties only when necessary
+* Design that communicates boring information in an attractive way using slang, anecdotes and familiar associations to the target audience
+* Contact form with feedback message 
+
+[Back to Table of contents](#table-of-contents)
+
+### Features Left to Implement
+
+* Make the logo the active element that the user can click to hide or open the navigation bar
+* Add a hamburger menu as an indication of what the user can expect from interacting with the logo
+* Read More and Read Less buttons for news page 
+* Improved interactivity of photos of team members that, when clicked on, enlarge a photo of a specific band member and display scrollable content
+* Buttons and their hover effects (glitch effect) that are aesthetically similar with the official Cyberpunk 2077 website
+* The contact form that actually sends the data to the server
+* Functional admin/newsman/user account system with corresponding rights to edit/add content
+* Expanded bottom navigation bar that allows the user to navigate through content in the same category
+* Dynamic webpage title generator
+* Cookie policy and RODO statement to comply with legal conditions
+
 [Back to Table of contents](#table-of-contents)
 
 ## Design
 
-### Color scheme 
+### Color Scheme 
 
 The choice of the appropriate color was dictated by following factors:
 
@@ -163,7 +304,34 @@ https://contrast-grid.eightshapes.com/
 
 [Back to Table of contents](#table-of-contents)
 
-## Technologies
+## Technologies and Tools
+
+* HTML
+    * the structure of the website. 
+* CSS
+    * content styling, contained in external stylesheet
+* Visual Studio Code
+    * the website was written in Visual Studio Code IDE
+* Github
+    * source code hosting and deployment
+* Git
+    * version control and pushing changes to repository
+* Fontawesome
+    * icons, as a visual representation of the intended use of the elements throughout the site
+* Webfont generator https://www.fontsquirrel.com/tools/webfont-generator
+    * Conversion of cyberpunk font to woff format, so it will use less bandwith
+* Google fonts 
+    * Roboto font, used to present content
+* Gimp 
+    * Scaling images and converting them to modern web formats
+* FavIcon generator http://tools.dynamicdrive.com/favicon/
+    * Favicon, used across all pages
+* Balsamiq 
+    * Creation of wireframes (part of tools that Code Institute provide to its students)
+* Contrast grid https://contrast-grid.eightshapes.com/ 
+    * Color palette compliance with WCAG 2.0 standard
+* W. Tatarkiewicz "History of Philosophy" 
+    * Deciphering various philosophical concepts present in the source material, and thus building new content on acquired knowledge.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -247,7 +415,7 @@ You all, are truly breathtaking.
 
 ### Content 
 
-The content is styled according to the language and naming convention of Cyberpunk 2077. All names, brands and images are the intellectual property of their respective owners.
+The content is styled according to the language and naming convention of Cyberpunk 2077. All names, brands, images and videos are the intellectual property of their respective owners.
 
 [Back to Table of contents](#table-of-contents)
 
