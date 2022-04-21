@@ -2,9 +2,9 @@
 
 ## Site overview
 
-Chrome rock band is a website that treats Samurai band as real, separate entity from Cyberpunk 2077. The game itself is set in a dystopian environment, ruled by large corporations and full of social inequalities. 
+Chrome rock band is a website that treats Samurai band as real, separate entity from Cyberpunk 2077. The game itself is set in a dystopian world, ruled by large corporations and full of social inequalities. 
 The music in the game was performed by real musicians from Refused, and Johnny Silverhand's appearance was modeled after popular actor Keanu Reeves. He is also Johnny's voice in the game.
-Judging from the monthly Spotify listeners and the views of each song on Youtube, there is a strong incentive to create a website that features Refused's alter ego in-game, as many fans of the game seem to have liked this kind of musicians incarnation. This website aims to fulfill, to some extent, this purpose while remaining faithful to the source material. The project was built to answer following, potential users needs:
+Judging from the monthly Spotify listeners and the views of each song on Youtube, there is a strong incentive to create a website that features Refused alter ego in-game, as many fans of the game seem to have liked this kind of musicians incarnation. This website aims to fulfill, to some extent, this purpose while remaining faithful to the source material. The project was built to answer following, potential users needs:
 
 * Can i check the band's new releases ??
 * When i can hear them live ? 
@@ -13,7 +13,7 @@ Judging from the monthly Spotify listeners and the views of each song on Youtube
 * What instruments are they playing on ?
 * How i can contact them ? 
 
-While some of these needs are beyond the scope of this project, the author of this website has endeavored to answer all of these questions in order to take full advantage of the newly acquired skills.
+While some of these needs are beyond the scope of this project, the author of this website has endeavored to answer all of these questions by making the most of his newly acquired skills.
 
 As a side note: although this site contains slang elements, it generally avoids the use of swearing, with one exception (it was censored during the development process)
 
@@ -36,16 +36,40 @@ Material above served as promotional material during E3 event. This is an iconic
         * [Return to top button: mobile](#return-to-top-button-mobile)
         * [Error 404 page](#error-404-page)
     * [Landing page](#landing-page)
+        * [Hero image](#hero-image)
+        * [Main button](#main-button)
+            * [Main button: hover effect](#main-button-hover-effect)
+        * [Social media buttons](#social-media-buttons)
+            * [Social media buttons: desktop view](#social-media-buttons-desktop-view)
+            * [Social media buttons: mobile view](#social-media-buttons-mobile-view)
+            * [Social media buttons: hover effect](#social-media-buttons-hover-effect)
+    * [News page](#main-page-news-page)
+        * [Newsman avatar](#newsman-avatar)
+        * [News page: desktop view](#news-page-desktop-view)
+        * [News page: mobile view](#news-page-mobile-view)
     * [Gigs page](#gigs-page)
+        * [Poster](#poster)
     * [Dorphs page](#dorphs-page)
+        * [Sub navigation menu: desktop view](#sub-navigation-menu-desktop-view)
+        * [Sub navigation menu: mobile view](#sub-navigation-menu-mobile-view)
+            * [Sub navigation menu: hover effect](#sub-navigation-menu-hover-effect)
+        * [Youtube Player: dorphs page](#youtube-player-dorphs-page)
+        * [Spotify Player](#spotify-player)
+        * [Official Shop](#official-shop)
+    * [Band page](#band-page)
+        * [Band page: desktop view](#band-page-desktop-view)
+        * [Band page: mobile view](#band-page-mobile-view)
+            * [Info: hover effect](#info-hover-effect)
     * [Contact face page](#contact-face-page)
+        * [Contact form](#contact-form)
     * [Contact form feedback page](#contact-form-feedback-page)
+        * [Youtube Player: contact form feedback page](#youtube-player-contact-form-feedback-page)
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
 1. [Design](#design)
     * [Color scheme](#color-scheme)
     * [Wireframes](#wireframes)
-      * [Landing page : desktop](#landing-page--desktop)
+      * [Landing page: desktop](#landing-page-desktop)
       * [Landing page: mobile](#landing-page-mobile)
       * [News page: dekstop](#news-page-dekstop)
       * [News page: mobile](#news-page-mobile)
@@ -93,17 +117,17 @@ Element that is present across all pages. Allows user to easily identify the pag
 * Contains the logo and links to News page, Gigs page, Dorphs page, Band page and Contact face page
     * The display of the navigation bar changes depending on screen size
 
-Navigation bar: Desktop view
+* Navigation bar: Desktop view
 ![Navigation bar desktop](docs/readme_images/navbar-desktop.png)
 
-Navigation bar: Mobile view
+* Navigation bar: Mobile view
 ![Navigation bar mobile](docs/readme_images/navbar-mobile.png)
 
 [Back to Table of contents](#table-of-contents)
 
 ##### Active page indicator
 
-* Serves as an additional visual indication of which page is currently displayed.
+* Serves as an additional visual indication of which page is currently displayed
 
 ![Active page indicator](docs/readme_images/active-page.png)
 
@@ -122,6 +146,9 @@ Navigation bar: Mobile view
 ![Footer](docs/readme_images/footer.png)
 
 * It serves as quick access to social media and informs that the website was created for educational purposes only
+* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+* The Hover effect, informs the user that it is an interactive element. It is also related to a specific third-party service
+* Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
 
 [Back to Table of contents](#table-of-contents)
 
@@ -151,15 +178,194 @@ Navigation bar: Mobile view
 
 ### Landing page
 
+#### Hero image
+
+* It is the central point of landing page. Its purpose is to give a general idea that the website is about Samurai band. In addition, in the future it may serve as a link to a specific point of interest, defined by the site administrator (like concert, new single, special announcement).
+
+![Landing page: Hero Image](docs/readme_images/landing-page-hero-img.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Main button 
+
+* Serves as a link to the news page. As part of an intuitive design principle, it is larger than any other buttons, which suggests that it is more important than other buttons. The hover effect indicates that this is an active element
+* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+
+[Back to Table of contents](#table-of-contents)
+
+![Landing page: Main button](docs/readme_images/landing-page-main-button.png)
+
+##### Main button: hover effect
+
+![Landing page: Main button - hover effect](docs/readme_images/landing-page-main-button-hover.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Social media buttons
+
+* They serve as quick access to social media. Each button contains an additional text indicator, which give them a little spice
+* Text is hidden on mobile devices by putting accessibility before fan service
+* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+* The Hover effect, informs the user that it is an interactive element. It is also related to a specific third-party service
+* Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
+
+[Back to Table of contents](#table-of-contents)
+
+##### Social media buttons: desktop view
+
+![Landing page: Social media buttons - desktop view](docs/readme_images/landing-page-social-links-desktop.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Social media buttons: mobile view
+
+![Landing page: Social media buttons - mobile view](docs/readme_images/landing-page-social-links-mobile.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Social media buttons: hover effect
+
+![Landing page: Social media buttons - hover effect](docs/readme_images/landing-page-social-links-hover.png)
+
+[Back to Table of contents](#table-of-contents)
+
 ### Main page (News page)
+
+* It is the main hub and the place where the user can find news related to the band's activities
+* The avatar of Newsman / Administrator and its rank informs the user about the author of the post and is part of the planned account system in the future
+    * As part of the responsive design, it changes its position to better suit mobile devices
+
+[Back to Table of contents](#table-of-contents)
+
+#### Newsman avatar 
+
+![News page: newsman avatar](docs/readme_images/newsman-avatar.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### News page: desktop view
+
+![News page: desktop view](docs/readme_images/news-page-desktop.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### News page: mobile view
+
+![News page: mobile view](docs/readme_images/news-page-mobile.png)
+
+[Back to Table of contents](#table-of-contents)
 
 ### Gigs page
 
+* It tells the user when and where to see the band live and where to buy a ticket for an event the user may be interested in
+* The poster serves as a visual representation of a specific event and as potential incentive, targeted towards the user
+
+#### Poster
+
+![Gigs page: poster](docs/readme_images/gigs-page-poster.png)
+
+[Back to Table of contents](#table-of-contents)
+
 ### Dorphs page
+
+* Sub navigation menu serves as a quick access to each section of the page 
+* It is responsive to better suit mobile device users
+* The hover effect, informs the user that it is an interactive element
+* The Youtube player serves as a representation of the virtual reality concept, known as Braidances, in Cyberpunk lore
+* Spotify player was chosen because of its popularity and user policy. It allows interested users to listen to free samples, and registered users can listen to whole tracks for free 
+* Due to technological limitations, the user is directed to the external, official store for any band related merchandise
+
+[Back to Table of contents](#table-of-contents)
+
+#### Sub navigation menu: desktop view
+
+![Sub navigation menu: desktop view](docs/readme_images/dorphs-page-sub-navigation-menu-desktop.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Sub navigation menu: mobile view 
+
+![Sub navigation menu: mobile view](docs/readme_images/dorphs-page-sub-navigation-menu-mobile.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Sub navigation menu: hover effect 
+
+![Sub navigation menu: hover effect](docs/readme_images/dorphs-page-sub-navigation-menu-hover.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Youtube Player: dorphs page
+
+![Youtube Player: dorphs page](docs/readme_images/dorphs-page-yt-video-player.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Spotify Player 
+
+![Spotify Player](docs/readme_images/dorphs-page-spotify-player.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Official Shop
+
+![Official Shop](docs/readme_images/dorphs-page-cp-merch.png)
+
+[Back to Table of contents](#table-of-contents)
+
+### Band page
+
+* It contains basic information about each band member: name, surname, role and the instrument they are playing
+* The brand of instruments is linked to each band member and emphasizes the character's personality
+* The hover effect, informs the user that it is an interactive element
+
+#### Band page: desktop view
+
+![Band page: desktop view](docs/readme_images/band-page-desktop.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Band page: mobile view
+
+![Band page: mobile view](docs/readme_images/band-page-mobile.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Info: hover effect
+
+![Band page: infor - hover effect](docs/readme_images/band-page-hover-effect.png)
+
+[Back to Table of contents](#table-of-contents)
 
 ### Contact face page
 
+#### Contact form
+
+* The image of the charismatic and jovial Johnny Silverhand invites users to fill out the contact form
+* Contact form is stylized as page from a notepad
+* The contact form consists of : 
+    * Name (required)
+    * Surname (required)
+    * Email (requred)
+    * Text area for opinions
+* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+* Since there is no logic to process all the inputs, the contac form method is set to "GET"
+
+![Contact form](docs/readme_images/contact-form.png)
+
+[Back to Table of contents](#table-of-contents)
+
 ### Contact form feedback page
+
+* It is divided into two sections : For fans, and "corpses"
+    * Youtube player serves as a form of gratification for filling out the contact form 
+    * The binary code is a form of the Easter egg. Controversial or hidden messages are designed in a similar way as in the game
+
+#### Youtube Player: contact form feedback page
+
+![Youtube Player: contact form feedback page](docs/readme_images/contact-feedback-page-yt-player.png)
+
+[Back to Table of contents](#table-of-contents)
 
 ### Existing Features 
 
@@ -208,7 +414,7 @@ https://contrast-grid.eightshapes.com/
 
 ### Wireframes
 
-#### Landing page : desktop
+#### Landing page: desktop
 
 <img height="800px" width="600px" alt="Landing page wireframe - desktop" src="docs\readme_images\landing-page-desktop.png">
 
@@ -330,6 +536,8 @@ https://contrast-grid.eightshapes.com/
     * Creation of wireframes (part of tools that Code Institute provide to its students)
 * Contrast grid https://contrast-grid.eightshapes.com/ 
     * Color palette compliance with WCAG 2.0 standard
+* Binary converter https://www.rapidtables.com/convert/number/binary-to-ascii.html
+    * Contact form feedback page message for corpses
 * W. Tatarkiewicz "History of Philosophy" 
     * Deciphering various philosophical concepts present in the source material, and thus building new content on acquired knowledge.
 
@@ -405,7 +613,7 @@ Permission to push changes to repository was not and will not be granted.
 * David Bowers - fellow student, that shared plethora of information during Project Portfolio 1 webinar
 * Anna Sosnowska - a friend, for her constant moral support
 * Tobiasz Chodarewicz - a friend, who inspired me to sign up with Code Institute
-* Developers CD Projekt RED - for creating an amazing and believable world based on the tabletop role-playing game by Mike Pondsmith
+* Developers from CD Projekt RED - for creating an amazing and believable world based on the tabletop role-playing game by Mike Pondsmith
 * Refused - for excellent portrayal of Samurai band. 
 * You - for visiting my repository and reading the documentation
 
