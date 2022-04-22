@@ -940,6 +940,8 @@ Console logs were checked to ensure, that they youtube player is working as inte
 
 ### Unfixed Bugs 
 
+The website is working as intended. If you find a bug in the application, please send a bug report [here](mailto:myexamplemail.com)
+
 [Back to Table of contents](#table-of-contents)
 
 ## Deployment
