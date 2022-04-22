@@ -87,6 +87,44 @@ Material above served as promotional material during E3 event. This is an iconic
       * [Error 404 page: mobile](#error-404-page-mobile)
 1. [Technologies and Tools](#technologies-and-tools)
 1. [Testing](#testing)
+    * [Responsiveness](#responsiveness)
+    * [Accessibility](#accessibility)
+    * [Lighthouse Testing](#lighthouse-testing)
+        * [Error 404: Lighthouse validation](#error-404-lighthouse-validation)
+        * [Landing page: Lighthouse validation](#landing-page-lighthouse-validation)
+        * [News page: Lighthouse validation](#news-page-lighthouse-validation)
+        * [Gigs page: Lighthouse validation](#gigs-page-lighthouse-validation)
+        * [Dorphs page: Lighthouse validation](#dorphs-page-lighthouse-validation)
+        * [Band page: Lighthouse validation](#band-page-lighthouse-validation)
+        * [Contact face page: Lighthouse validation](#contact-face-page-lighthouse-validation)
+        * [Contact form feedback page: Lighthouse validation](#contact-form-feedback-page-lighthouse-validation)
+    * [Functional Testing](#functional-testing)
+        * [Navigation links](#navigation-links)
+        * [Social media buttons: footer, landing page](#social-media-buttons-footer-landing-page)
+            * [CDPR gear](#cdpr-gear)
+        * [Error 404 page](#error-404-testing)
+        * [Contact form](#contact-form-testing)
+        * [Video/Music player](#videomusic-player-testing)
+            * [Youtube player](#youtube-player-testing)
+    * [Validator Testing](#validator-testing)
+        * [W3C Markup Validation Service](#w3c-html-validation-service)
+            * [Error 404 html validation](#error-404-html-validation)
+            * [Landing page html validation](#landing-page-html-validation)
+            * [News page html validation](#news-page-html-validation)
+            * [Gigs page html validation](#gigs-page-html-validation)
+            * [Dorphs page html validation](#dorphs-page-html-validation)
+            * [Band page html validation](#band-page-html-validation)
+            * [Contact face html validation](#contact-face-page-html-validation)
+            * [Contact form feedback html validation](#contact-form-feedback-page-html-validation)
+        * [W3C CSS Validation Service](#w3c-css-validation-service)
+            * [Error 404 css validation](#error-404-css-validation)
+            * [Landing page css validation](#landing-page-css-validation)
+            * [News page css validation](#news-page-css-validation)
+            * [Gigs page css validation](#gigs-page-css-validation)
+            * [Dorphs page css validation](#dorphs-page-css-validation)
+            * [Band page css validation](#band-page-css-validation)
+            * [Contact face css validation](#contact-face-page-css-validation)
+            * [Contact form feedback css validation](#contact-form-feedback-page-css-validation)
     * [Unfixed Bugs](#unfixed-bugs)
 1. [Deployment](#deployment)
     * [Version control](#version-control)
@@ -147,7 +185,7 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 * It serves as quick access to social media and informs that the website was created for educational purposes only
 * A theme icon from font awesome is present as an additional form of indication and visual stimulation
-* The Hover effect, informs the user that it is an interactive element. It is also related to a specific third-party service
+* The hover effect, for each icon, informs the user that it is an interactive element. It is also related to a specific third-party service
 * Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
 
 [Back to Table of contents](#table-of-contents)
@@ -349,7 +387,7 @@ Element that is present across all pages. Allows user to easily identify the pag
     * Email (requred)
     * Text area for opinions
 * A theme icon from font awesome is present as an additional form of indication and visual stimulation
-* Since there is no logic to process all the inputs, the contac form method is set to "GET"
+* Since there is no logic to process all the inputs, the contact form method is set to "GET"
 
 ![Contact form](docs/readme_images/contact-form.png)
 
@@ -359,7 +397,7 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 * It is divided into two sections : For fans, and "corpses"
     * Youtube player serves as a form of gratification for filling out the contact form 
-    * The binary code is a form of the Easter egg. Controversial or hidden messages are designed in a similar way as in the game
+    * The binary code is a form of the Easter egg. Controversial or hidden messages are designed in a similar way in the game
 
 #### Youtube Player: contact form feedback page
 
@@ -544,6 +582,359 @@ https://contrast-grid.eightshapes.com/
 [Back to Table of contents](#table-of-contents)
 
 ## Testing
+
+### Responsiveness 
+
+All pages were tested to support screen sizes from 360px and upwards. 
+
+Steps to test: 
+
+1. Open the browser and navigate to [Chrome Rock Band](https://bartoszgebarowski.github.io/chrome-rock-band/)
+1. Open the developer tools 
+1. Set to dimensions to responsive 
+1. Click the grey bar on the left in order to change the width
+
+Expected: 
+
+Website supports declared screen sizes
+
+Result: 
+
+Website is behaving as expected
+
+* Website was also opened on the following mobile devices: 
+
+Samsung Galaxy S7
+
+[Back to Table of contents](#table-of-contents)
+
+### Accessibility
+
+Wave Evaluation Tool was used throughout development process and for final testing. Following tests were conducted: 
+
+* Webpage structure implementation test
+* HTML lang attribute test
+* Contrast errors test
+* Aria labels implementation test
+* Alt attribute implementation test
+
+[Back to Table of contents](#table-of-contents)
+
+### Lighthouse testing 
+
+#### Error 404: Lighthouse validation
+
+![Error 404: Lighthouse validation result](docs/testing/404-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Landing page: Lighthouse validation
+
+![Landing page: Lighthouse validation result](docs/testing/index-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### News page: Lighthouse validation
+
+![News page: Lighthouse validation result](docs/testing/news-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Gigs page: Lighthouse validation
+
+![Gigs page: Lighthouse validation result](docs/testing/gigs-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Dorphs page: Lighthouse validation
+
+![Dorphs page: Lighthouse validation result](docs/testing/dorphs-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Band page: Lighthouse validation
+
+![Band page: Lighthouse validation result](docs/testing/band-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Contact face page: Lighthouse validation
+
+![Contact face: Lighthouse validation result](docs/testing/contact-face-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### Contact form feedback page: Lighthouse validation
+
+![Contact form feedback page: Lighthouse validation result](docs/testing/contact-form-feedback-lighthouse.png)
+
+[Back to Table of contents](#table-of-contents)
+
+### Functional testing
+
+#### Navigation Links 
+
+Manual testing was performed, to ensure, that each link/button leads to the correct webpage, within application
+
+|Navigation Link|Page to load|
+|---------------|------------|
+|Main button-landing page| main.html|
+|News           |main.html   |
+|Gigs           |gigs.html   |
+|Dorphs         |dorphs.html |
+|Band           |band.html   |
+|Contact        |contact.html|
+
+[Back to Table of contents](#table-of-contents)
+
+#### Social media buttons: footer, landing page
+
+Manual testing was performed, to ensure, that each button to leads to the external website/application, and it opens in a new tab 
+
+|Button|Page to load|
+|------|------------|
+|Spotify|https://open.spotify.com/artist/5Lv9Qc7dCi7vps4rQ5MfTV|
+|Youtube|https://www.youtube.com/playlist?list=PL4dX1IHww9p1D3ZzW8J2fX6q1FP5av2No|
+|Facebook|https://www.facebook.com/|
+|Apple music|https://music.apple.com/us/artist/samurai/1289304765|
+|Twitter|https://twitter.com/?lang=en|
+
+[Back to Table of contents](#table-of-contents)
+
+##### CDPR gear 
+
+The same test was performed, to ensure, that image leading to the Official CDPR shop, display merchandise, related to Samurai and it opens in a new tab
+
+[Back to Table of contents](#table-of-contents)
+
+#### Error 404 testing 
+
+Wrong address was typed into the browser, to ensure, that page that handles that error is functioning properly 
+
+Steps to test: 
+1. Open the browser and navigate to [Chrome Rock Band](https://bartoszgebarowski.github.io/chrome-rock-band/)
+2. Type wrong address, fro example https://bartoszgebarowski.github.io/chrome-rock-band/abc.html
+
+Expected: 
+
+404.html is displayed, instead of Github template page
+
+Actual: 
+Page is working as intended
+
+[Back to Table of contents](#table-of-contents)
+
+#### Contact Form testing
+
+Following tests were performed, that contact form is working as intended
+
+_Scenario 1: Correct inputs_
+
+Steps to test: 
+
+1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html)
+2. Input following data: 
+    * Name: John 
+    * Surname: Doe
+    * Email: johndoe@gmail.com
+    * Feedback: optional
+3. Click Submit button
+
+Expected: 
+
+User should be redirected to contact-form-feedback.html page
+
+Actual:
+
+No warnings are displayed and user is redirected to contact-form-feedback.html page
+
+_Scenario 2: Missing name input or no inputs_
+
+Steps to test:
+
+1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html) 
+2. Input following data (or none of them): 
+    * Surname: Doe
+    * Email: johndoe@gmail.com
+    * Feedback: optional
+3. Click Submit button
+
+Expected: 
+
+An error is displayed that prompts the user to fill in a missing field
+
+Actual:
+
+The website works as expected and the form is not being submitted
+
+_Scenario 3: Missing surname input_
+
+Steps to test:
+1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html)
+2. Input following data: 
+    * Name: John
+    * Email: johndoe@gmail.com
+    * Feedback: optional
+3. Click Submit button  
+
+Expected:
+
+An error is displayed that prompts the user to fill in a missing field
+
+Actual:
+
+The website works as expected and the form is not being submitted
+
+_Scenario 4: Missing email input_
+
+Steps to test:
+1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html)
+2. Input following data: 
+    * Name: John 
+    * Surname: Doe
+    * Feedback: optional
+3. Click Submit button  
+
+Expected:
+
+An error is displayed that prompts the user to fill in a missing field
+
+Actual:
+
+The website works as expected and the form is not being submitted
+
+_Scenario 5: Incorrect format of email input_
+
+1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html)
+2. Input following data: 
+    * Name: John 
+    * Surname: Doe
+    * Email: johndoe.gmail.com
+    * Feedback: optional
+3. Click Submit button  
+
+Expected: 
+
+An error is displayed that prompts the user to add @ to the typed email address
+
+Actual:
+
+The website works as expected and the form is not being submitted
+
+
+[Back to Table of contents](#table-of-contents)
+
+#### Video/Music player testing
+
+Manual testing was performed, to ensure, that each video/music player will only start working after user input
+
+[Back to Table of contents](#table-of-contents)
+
+##### Youtube player testing
+
+Console logs were checked to ensure, that they youtube player is working as intendend. As a result, enhanced privacy mode was disabled
+
+[Back to Table of contents](#table-of-contents)
+
+### Validator testing 
+
+#### W3C HTML Validation Service
+
+##### Error 404 html validation
+
+![Error 404 html validation result](docs/testing/404-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Landing page html validation
+
+![Landing page html validation result](docs/testing/index-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### News page html validation
+
+![News page html validation result](docs/testing/main-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Gigs page html validation
+
+![Gigs page html validation result](docs/testing/gigs-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Dorphs page html validation
+
+![Dorphs page validation result](docs/testing/dorphs-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Band page html validation
+
+![Band page validation result](docs/testing/band-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Contact face page html validation
+
+![Contact face page html validation result](docs/testing/contact-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Contact form feedback page html validation
+
+![Contact form feedback page html validation result](docs/testing/contact-form-feedback-html.png)
+
+[Back to Table of contents](#table-of-contents)
+
+#### W3C CSS Validation Service
+
+##### Error 404 css validation
+
+![Contact form feedback page css validation result](docs/testing/404-css.png)
+
+[Back to Table of contents](#table-of-contents)
+ 
+##### Landing page css validation
+
+![Landing page css validation result](docs/testing/index-css.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### News page css validation
+
+![News page css validation result](docs/testing/main-css.png)
+
+[Back to Table of contents](#table-of-contents)
+ 
+##### Gigs page css validation 
+
+![Gigs page css validation result](docs/testing/gigs-css.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Dorphs page css validation
+
+![Dorphs page css validation result](docs/testing/dorphs-css.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Band page css validation
+
+![Band page css validation result](docs/testing/band-css.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Contact face page css validation
+
+![Contact face page css validation result](docs/testing/contact-css.png)
+
+[Back to Table of contents](#table-of-contents)
+
+##### Contact form feedback page css validation
+
+![Contact form feedback page css validation result](docs/testing/contact-form-feedback-css.png)
 
 [Back to Table of contents](#table-of-contents)
 
