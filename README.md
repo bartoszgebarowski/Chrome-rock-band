@@ -2,24 +2,24 @@
 
 ## Site overview
 
-Chrome rock band is a website that treats Samurai band as real, separate entity from Cyberpunk 2077. The game itself is set in a dystopian world, ruled by large corporations, and full of social inequalities. 
-The music in the game was performed by real musicians from Refused, and Johnny Silverhand's appearance was modeled after popular actor Keanu Reeves. He is also Johnny's voice in the game.
-Judging from the monthly Spotify listeners and the views of each song on Youtube, there is a strong incentive to create a website that features Refused alter ego in-game, as many fans of the game seem to have liked this kind of musicians incarnation. This website aims to fulfill, to some extent, this purpose while remaining faithful to the source material. The project was built to answer following, potential users needs:
+The 'Chrome rock band' is a website that treats Samurai band as a real, separate entity from Cyberpunk 2077. The game is set in a dystopian world, ruled by large corporations and full of social inequalities. 
+The music in the game was performed by real musicians from Refused, and Johnny Silverhand's appearance was modelled after famous actor Keanu Reeves. He is also Johnny's voice in the game.
+Judging from the monthly Spotify listeners and the views of each song on Youtube, there is a strong incentive to create a website that features Refused alter ego in-game, as many fans of the game seem to have liked this kind of musicians incarnation. This website aims to fulfil, to some extent, this purpose while remaining faithful to the source material. The project was built to answer the following potential users needs:
 
-* Can i check the band's new releases ??
-* When i can hear them live ? 
+* Can I check the band's new releases?
+* When can I hear them live? 
 * Can I listen to their music for free?
-* Is there any band's merchandise that i can buy ?
-* What instruments are they playing on ?
-* How i can contact them ? 
+* Is there any band merchandise that I can buy?
+* What instruments are they playing on?
+* How can I contact them? 
 
-While some of these needs are beyond the scope of this project, the author of this website has endeavored to answer all of these questions by making the most of his newly acquired skills.
+While some of these needs are beyond the scope of this project, the author of this website has endeavoured to answer all of these questions by making the most of his newly acquired skills.
 
 As a side note: although this site contains slang elements, it generally avoids the use of swearing, with one exception (it was censored during the development process)
 
 https://www.youtube.com/watch?v=m1kYOo9UxBw
 
-Material above served as promotional material during E3 event. This is an iconic and well-known quote that it would be a huge oversight not to include it in the project.
+The material above served as promotional material during the E3 event. This is an iconic and well-known quote that it would be a huge oversight not to include in the project.
 
 ![Am i responsive screenshot](/docs/readme_images/am-i-responsive.png)
 
@@ -50,16 +50,16 @@ Material above served as promotional material during E3 event. This is an iconic
     * [Gigs page](#gigs-page)
         * [Poster](#poster)
     * [Dorphs page](#dorphs-page)
-        * [Sub navigation menu: desktop view](#sub-navigation-menu-desktop-view)
-        * [Sub navigation menu: mobile view](#sub-navigation-menu-mobile-view)
-            * [Sub navigation menu: hover effect](#sub-navigation-menu-hover-effect)
-        * [Youtube Player: dorphs page](#youtube-player-dorphs-page)
+        * [Sub-navigation menu: desktop view](#sub-navigation-menu-desktop-view)
+        * [Sub-navigation menu: mobile view](#sub-navigation-menu-mobile-view)
+            * [Sub-navigation menu: hover effect](#sub-navigation-menu-hover-effect)
+        * [Youtube Player: Dorphs page](#youtube-player-dorphs-page)
         * [Spotify Player](#spotify-player)
         * [Official Shop](#official-shop)
     * [Band page](#band-page)
         * [Band page: desktop view](#band-page-desktop-view)
         * [Band page: mobile view](#band-page-mobile-view)
-            * [Info: hover effect](#info-hover-effect)
+            * [Band page: hover effect](#band-page-hover-effect)
     * [Contact face page](#contact-face-page)
         * [Contact form](#contact-form)
     * [Contact form feedback page](#contact-form-feedback-page)
@@ -67,7 +67,7 @@ Material above served as promotional material during E3 event. This is an iconic
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
 1. [Design](#design)
-    * [Color scheme](#color-scheme)
+    * [Colour scheme](#colour-scheme)
     * [Wireframes](#wireframes)
       * [Landing page: desktop](#landing-page-desktop)
       * [Landing page: mobile](#landing-page-mobile)
@@ -103,7 +103,7 @@ Material above served as promotional material during E3 event. This is an iconic
         * [Social media buttons: footer, landing page](#social-media-buttons-footer-landing-page)
             * [CDPR gear](#cdpr-gear)
         * [Error 404 page](#error-404-testing)
-        * [Contact form](#contact-form-testing)
+        * [Contact form testing](#contact-form-testing)
         * [Video/Music player](#videomusic-player-testing)
             * [Youtube player](#youtube-player-testing)
     * [Validator Testing](#validator-testing)
@@ -121,7 +121,7 @@ Material above served as promotional material during E3 event. This is an iconic
     * [Unfixed Bugs](#unfixed-bugs)
 1. [Deployment](#deployment)
     * [Version control](#version-control)
-    * [Deployment to github pages](#deployment-to-github-pages)
+    * [Deployment to GitHub pages](#deployment-to-github-pages)
     * [Clone the repository locally](#clone-the-repository-locally)
     * [Pull requests](#pull-requests)
 1. [Credits](#credits)
@@ -133,17 +133,17 @@ Material above served as promotional material during E3 event. This is an iconic
 
 ### Site wide 
 
-These features are common to all pages (besides landing page, that serves specific purpose in website structure) 
+These features are common to all pages (besides the landing page, which serves a specific purpose in website structure) 
 
 #### Favicon
 
 ![Favicon](docs/readme_images/favicon.png) 
 
-Element that is present across all pages. Allows user to easily identify the page, if they have multiple open tabs
+The element that is present across all pages. Allows a user to easily identify the page if they have multiple open tabs
 
 #### Responsive navigation bar
 
-* Contains the logo and links to News page, Gigs page, Dorphs page, Band page and Contact face page
+* Contains the logo and links to the News page, Gigs page, Dorphs page, Band page and Contact face page
     * The display of the navigation bar changes depending on screen size
 
 * Navigation bar: Desktop view
@@ -169,17 +169,17 @@ Element that is present across all pages. Allows user to easily identify the pag
 ![Footer](docs/readme_images/footer.png)
 
 * It serves as quick access to social media and informs that the website was created for educational purposes only
-* A theme icon from font awesome is present as an additional form of indication and visual stimulation
-* The hover effect, for each icon, informs the user that it is an interactive element. It is also related to a specific third-party service
+* A theme icon from the 'Font Awesome' is present as an additional form of indication and visual stimulation
+* The hover effect for each icon informs the user that it is an interactive element. It is also related to a specific third-party service
 
 ![Footer: hover effect](docs/readme_images/footer-social-hover.png)
 
-* Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
+* Due to the similarity of some colours, the buttons are placed in such a way that similar colours do not lie next to each other
 
 #### Return to top button: mobile
 
 * It allows mobile users to quickly access the main navigation menu
-* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+* A theme icon from the 'Font Awesome' is present as an additional form of indication and visual stimulation
 
 ![Return to top button: mobile](docs/readme_images/top-mobile.png)
 
@@ -201,14 +201,14 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 #### Hero image
 
-* It is the central point of landing page. Its purpose is to give a general idea that the website is about Samurai band. In addition, in the future it may serve as a link to a specific point of interest, defined by the site administrator (like concert, new single, special announcement).
+* It is the central point of landing page. Its purpose is to give a general idea that the website is about Samurai band. In addition, in the future, it may serve as a link to a specific point of interest, defined by the site administrator (like concert, new single, special announcement).
 
 ![Landing page: Hero Image](docs/readme_images/landing-page-hero-img.png)
 
 #### Main button 
 
-* Serves as a link to the news page. As part of an intuitive design principle, it is larger than any other buttons, which suggests that it is more important than other buttons. The hover effect indicates that this is an active element
-* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+* Serves as a link to the news page. As part of an intuitive design principle, it is larger than any other buttons, suggesting that it is more important than other buttons. The hover effect indicates that this is an active element
+* A theme icon from 'Font Awesome' is present as an additional form of indication and visual stimulation
 
 ![Landing page: Main button](docs/readme_images/landing-page-main-button.png)
 
@@ -218,11 +218,11 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 #### Social media buttons
 
-* They serve as quick access to social media. Each button contains an additional text indicator, which give them a little spice
+* They serve as quick access to social media. Each button contains an additional text indicator, which gives them a little spice
 * Text is hidden on mobile devices by putting accessibility before fan service
-* A theme icon from font awesome is present as an additional form of indication and visual stimulation
-* The Hover effect, informs the user that it is an interactive element. It is also related to a specific third-party service
-* Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
+* A theme icon from 'Font Awesome' is present as an additional form of indication and visual stimulation
+* The Hover effect informs the user that it is an interactive element. It is also related to a specific third-party service
+* Due to the similarity of some colours, the buttons are placed in such a way that similar colours do not lie next to each other
 
 ##### Social media buttons: desktop view
 
@@ -261,7 +261,7 @@ Element that is present across all pages. Allows user to easily identify the pag
 ### Gigs page
 
 * It tells the user when and where to see the band live and where to buy a ticket for an event the user may be interested in
-* The poster serves as a visual representation of a specific event and as potential incentive, targeted towards the user
+* The poster serves as a visual representation of a specific event and as a potential incentive targeted toward the user
 
 #### Poster
 
@@ -271,22 +271,22 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 ### Dorphs page
 
-* Sub navigation menu serves as a quick access to each section of the page 
+* Sub-navigation menu serves as quick access to each section of the page 
 * It is responsive to better suit mobile device users
-* The hover effect, informs the user that it is an interactive element
+* The hover effect informs the user that it is an interactive element
 * The Youtube player serves as a representation of the virtual reality concept, known as Braidances, in Cyberpunk lore
 * Spotify player was chosen because of its popularity and user policy. It allows interested users to listen to free samples, and registered users can listen to whole tracks for free 
-* Due to technological limitations, the user is directed to the external, official store for any band related merchandise
+* Due to technological limitations, the user is directed to the external, official store for any band-related merchandise
 
-#### Sub navigation menu: desktop view
+#### Sub-navigation menu: desktop view
 
 ![Sub navigation menu: desktop view](docs/readme_images/dorphs-page-sub-navigation-menu-desktop.png)
 
-#### Sub navigation menu: mobile view 
+#### Sub-navigation menu: mobile view 
 
 ![Sub navigation menu: mobile view](docs/readme_images/dorphs-page-sub-navigation-menu-mobile.png)
 
-#### Sub navigation menu: hover effect 
+#### Sub-navigation menu: hover effect 
 
 ![Sub navigation menu: hover effect](docs/readme_images/dorphs-page-sub-navigation-menu-hover.png)
 
@@ -308,7 +308,7 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 * It contains basic information about each band member: name, surname, role and the instrument they are playing
 * The brand of instruments is linked to each band member and emphasizes the character's personality
-* The hover effect, informs the user that it is an interactive element
+* The hover effect informs the user that it is an interactive element
 
 #### Band page: desktop view
 
@@ -318,7 +318,7 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 ![Band page: mobile view](docs/readme_images/band-page-mobile.png)
 
-#### Info: hover effect
+#### Band page: hover effect
 
 ![Band page: band member info - hover effect](docs/readme_images/band-page-hover-effect.png)
 
@@ -329,13 +329,13 @@ Element that is present across all pages. Allows user to easily identify the pag
 #### Contact form
 
 * The image of the charismatic and jovial Johnny Silverhand invites users to fill out the contact form
-* Contact form is stylized as page from a notepad
-* The contact form consists of : 
+* Contact form is stylized as a page from a notepad
+* The contact form consists of: 
     * Name (required)
     * Surname (required)
-    * Email (requred)
+    * Email (required)
     * Text area for opinions
-* A theme icon from font awesome is present as an additional form of indication and visual stimulation
+* A theme icon from 'Font Awesome' is present as an additional form of indication and visual stimulation
 * Since there is no logic to process all the inputs, the contact form method is set to "GET"
 
 ![Contact form](docs/readme_images/contact-form.png)
@@ -344,9 +344,9 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 ### Contact form feedback page
 
-* It is divided into two sections : For fans, and "corpses"
+* It is divided into two sections: For fans, and "corpses"
     * Youtube player serves as a form of gratification for filling out the contact form 
-    * The binary code is a form of the Easter egg. Controversial or hidden messages are designed in a similar way in the game
+    * The binary code is a form of the Easter egg. Controversial or hidden messages are designed similarly in the game
 
 #### Youtube Player: contact form feedback page
 
@@ -357,39 +357,39 @@ Element that is present across all pages. Allows user to easily identify the pag
 ### Existing Features 
 
 * Responsive design 
-* Design that respects source material. It acknowledges Cyberpunk lore, naming conventions used by Cyberpunk 2077 designers. It takes certain liberties only when necessary
-* Design that communicates boring information in an attractive way using slang, anecdotes and familiar associations to the target audience
-* Contact form with feedback message 
+* Design that respects the source material. It acknowledges Cyberpunk lore, naming conventions used by Cyberpunk 2077 designers. It takes certain liberties only when necessary
+* Design that attractively communicates boring information using slang, anecdotes and familiar associations to the target audience
+* Contact form with a feedback message 
 
 ### Features Left to Implement
 
 * Make the logo the active element that the user can click to hide or open the navigation bar
 * Add a hamburger menu as an indication of what the user can expect from interacting with the logo
-* Read More and Read Less buttons for news page 
+* 'Read more' and 'Read less' buttons for the News page 
 * Improved interactivity of photos of team members that, when clicked on, enlarge a photo of a specific band member and display scrollable content
-* Buttons and their hover effects (glitch effect) that are aesthetically similar with the official Cyberpunk 2077 website
+* Buttons and their hover effects (glitch effect) that are aesthetically similar to the official Cyberpunk 2077 website
 * The contact form that actually sends the data to the server
 * Functional admin/newsman/user account system with corresponding rights to edit/add content
 * Expanded bottom navigation bar that allows the user to navigate through content in the same category
 * Dynamic webpage title generator
-* Cookie policy and RODO statement to comply with legal conditions
+* Cookie policy and GDPR statement to comply with legal conditions
 
 [Back to Table of contents](#table-of-contents)
 
 ## Design
 
-### Color Scheme 
+### Colour Scheme 
 
-The choice of the appropriate color was dictated by following factors:
+The choice of the appropriate colour was dictated by the following factors:
 
-- Is it connected to CD Projekt RED, Cyberpunk 2077 or Samurai ?
-- Is it related to a specific brand, in such a manner, that the user is expecting specific correlation between element and the color ? 
-- Are the interactive and non interactive elements are distinguished consistently across pages ?
-- Is it compatible with the WCAG 2.0 contrast standard ?
+- Is it connected to CD Projekt RED, Cyberpunk 2077 or Samurai?
+Is it related to a specific brand so that the user expects a particular correlation between an element and the colour? 
+- Are the interactive and non-interactive elements distinguished consistently across pages?
+- Is it compatible with the WCAG 2.0 contrast standard?
 
-Connections to website subject or connotations to specific brands, were checked by performing meticulous web research. If such resources were not available, Firefox color selector tool was used instead.
+Connections to website subjects or connotations to specific brands were checked by performing meticulous web research. If such resources were not available, the Firefox colour selector tool was used instead.
 
-To ensure compliance with WCAG 2.0 standard, contrast-grid tool was used, which can be found at the link below:
+To ensure compliance with WCAG 2.0 standard, the Contrast-Grid tool was used, which can be found at the link below:
 
 https://contrast-grid.eightshapes.com/
 
@@ -470,17 +470,17 @@ https://contrast-grid.eightshapes.com/
 * HTML
     * the structure of the website. 
 * CSS
-    * content styling, contained in external stylesheet
+    * content styling, contained in an external stylesheet
 * Visual Studio Code
     * the website was written in Visual Studio Code IDE
-* Github
+* GitHub
     * source code hosting and deployment
 * Git
-    * version control and pushing changes to repository
+    * version control and pushing changes to the repository
 * Fontawesome
     * icons, as a visual representation of the intended use of the elements throughout the site
 * Webfont generator https://www.fontsquirrel.com/tools/webfont-generator
-    * Conversion of cyberpunk font to woff format, so it will use less bandwith
+    * Conversion of cyberpunk font to woff format, so it will use less bandwidth
 * Google fonts 
     * Roboto font, used to present content
 * Gimp 
@@ -490,11 +490,11 @@ https://contrast-grid.eightshapes.com/
 * Balsamiq 
     * Creation of wireframes (part of tools that Code Institute provide to its students)
 * Contrast grid https://contrast-grid.eightshapes.com/ 
-    * Color palette compliance with WCAG 2.0 standard
+    * Colour palette compliance with WCAG 2.0 standard
 * Binary converter https://www.rapidtables.com/convert/number/binary-to-ascii.html
     * Contact form feedback page message for corpses
 * W. Tatarkiewicz "History of Philosophy" 
-    * Deciphering various philosophical concepts present in the source material, and thus building new content on acquired knowledge.
+    * Deciphering various philosophical concepts present in the source material, thus building new content on acquired knowledge.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -510,15 +510,15 @@ Steps to test:
 1. Open the developer tools 
 1. Set to dimensions to responsive 
 1. Set the zoom to 50%
-1. Click the grey bar on the left in order to change the width
+1. Click the grey bar on the left to change the width
 
 Expected: 
 
-Website supports declared screen sizes
+The website supports declared screen sizes
 
 Result: 
 
-Website is behaving as expected
+The website is behaving as expected
 
 * Website was also opened on the following mobile devices: 
 
@@ -528,7 +528,7 @@ Samsung Galaxy S7
 
 ### Accessibility
 
-Wave Evaluation Tool was used throughout development process and for final testing. Following tests were conducted: 
+Wave Evaluation Tool was used throughout development process and for final testing. The following tests were conducted: 
 
 * Webpage structure implementation test
 * HTML lang attribute test
@@ -578,7 +578,7 @@ Wave Evaluation Tool was used throughout development process and for final testi
 
 #### Navigation Links 
 
-Manual testing was performed, to ensure, that each link/button leads to the correct webpage, within application
+Manual testing was performed to ensure that each link/button leads to the correct webpage within application
 
 |Navigation Link|Page to load|
 |---------------|------------|
@@ -593,7 +593,7 @@ Manual testing was performed, to ensure, that each link/button leads to the corr
 
 #### Social media buttons: footer, landing page
 
-Manual testing was performed, to ensure, that each button leads to the external website/application, and it opens in a new tab 
+Manual testing was performed to ensure that each button leads to the external website/application and it opens in a new tab 
 
 |Button|Page to load|
 |------|------------|
@@ -607,28 +607,28 @@ Manual testing was performed, to ensure, that each button leads to the external 
 
 ##### CDPR gear 
 
-The same test was performed, to ensure, that image leading to the Official CDPR shop, display merchandise, related to Samurai and it opens in a new tab
+The same test was performed to ensure that the image leading to the Official CDPR shop displays merchandise related to Samurai, and it opens in a new tab
 
 #### Error 404 testing 
 
-Wrong address was typed into the browser, to ensure, that page that handles that error is functioning properly 
+The wrong address was typed into the browser to ensure that page that handles that error is functioning properly 
 
 Steps to test: 
 1. Open the browser and navigate to [Chrome Rock Band](https://bartoszgebarowski.github.io/chrome-rock-band/)
-2. Type wrong address, fro example https://bartoszgebarowski.github.io/chrome-rock-band/abc.html
+2. Type the wrong address, for example: https://bartoszgebarowski.github.io/chrome-rock-band/abc.html
 
 Expected: 
 
-404.html is displayed, instead of Github template page
+404.html is displayed instead of the GitHub template page
 
 Actual: 
-Page is working as intended
+The page is working as intended
 
 [Back to Table of contents](#table-of-contents)
 
 #### Contact Form testing
 
-Following tests were performed, that contact form is working as intended
+Following tests were performed, and the contact form is working as intended
 
 _Scenario 1: Correct inputs_
 
@@ -644,11 +644,11 @@ Steps to test:
 
 Expected: 
 
-User should be redirected to contact-form-feedback.html page
+User should be redirected to the contact-form-feedback.html page
 
 Actual:
 
-No warnings are displayed and user is redirected to contact-form-feedback.html page
+No warnings are displayed, and user is redirected to the contact-form-feedback.html page
 
 _Scenario 2: Missing name input or no inputs_
 
@@ -667,13 +667,13 @@ An error is displayed that prompts the user to fill in a missing field
 
 Actual:
 
-The website works as expected and the form is not being submitted
+The website works as expected, and the form is not being submitted
 
 _Scenario 3: Missing surname input_
 
 Steps to test:
 1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html)
-2. Input following data: 
+2. Input the following data: 
     * Name: John
     * Email: johndoe@gmail.com
     * Feedback: optional
@@ -685,13 +685,13 @@ An error is displayed that prompts the user to fill in a missing field
 
 Actual:
 
-The website works as expected and the form is not being submitted
+The website works as expected, and the form is not being submitted
 
 _Scenario 4: Missing email input_
 
 Steps to test:
 1. Navigate to [Chrome Rock Band: Contact face page](https://bartoszgebarowski.github.io/chrome-rock-band/contact.html)
-2. Input following data: 
+2. Input the following data: 
     * Name: John 
     * Surname: Doe
     * Feedback: optional
@@ -703,7 +703,7 @@ An error is displayed that prompts the user to fill in a missing field
 
 Actual:
 
-The website works as expected and the form is not being submitted
+The website works as expected, and the form is not being submitted
 
 _Scenario 5: Incorrect format of email input_
 
@@ -721,15 +721,15 @@ An error is displayed that prompts the user to add @ to the typed email address
 
 Actual:
 
-The website works as expected and the form is not being submitted
+The website works as expected, and the form is not being submitted
 
 #### Video/Music player testing
 
-Manual testing was performed, to ensure, that each video/music player will only start working after user input
+Manual testing was performed to ensure that each video/music player will only start working after user input
 
 ##### Youtube player testing
 
-Console logs were checked to ensure, that they youtube player is working as intendend. As a result, enhanced privacy mode was disabled
+Console logs were checked to ensure that the Youtube player worked as intended. As a result, the enhanced privacy mode was disabled
 
 [Back to Table of contents](#table-of-contents)
 
@@ -785,7 +785,7 @@ Console logs were checked to ensure, that they youtube player is working as inte
 
 ### Unfixed Bugs 
 
-The author of this webpage, have made every effort to ensure that the website is bug free. Nevertheless, despite of all made efforts, some errors might occur.
+This web page's author has made every effort to ensure that the website is bug-free. Nevertheless, despite all made efforts, some errors might occur.
 
 If this is a case, and you find any bug, please send a bug report [here](mailto:myexamplemail.com)
 
@@ -795,49 +795,49 @@ If this is a case, and you find any bug, please send a bug report [here](mailto:
 
 ### Version Control 
 
-Website was created in Virtual Studio Code editor, and changes were pushed to github repository https://github.com/bartoszgebarowski/chrome-rock-band by using bash terminal. 
+The website was created in Virtual Studio Code editor, and changes were pushed to the GitHub repository https://github.com/bartoszgebarowski/chrome-rock-band by using bash terminal. 
 
-Following commands were used:
+The following commands were used:
 
-```git status``` - This command was used check files staged and not staged for commit
+```git status``` - This command was used to check files staged and not staged for commit
 
-```git add <file.extension>``` -  This command was used add changes in file/files, with particular name and extension, to be staged for commit
+```git add <file.extension>``` -  This command was used to add changes in file/files, with particular names and extensions, to be staged for commit
 
 ```git add .``` - This command was used to add changes in all files, regardless of name and extension, to be staged for commit
 
-```git commit -m "commit message"``` - This command was used to commit all staged changes to local repository
+```git commit -m "commit message"``` - This command was used to commit all staged changes to a local repository
 
-```git push``` - This command was used to upload all commited locally changes to github repository
+```git push``` - This command was used to upload all committed locally changes to a GitHub repository
 
 [Back to Table of contents](#table-of-contents)
 
-### Deployment to Github pages
+### Deployment to GitHub pages
 
-The site was deployed to Github by taking following steps:
+The site was deployed to GitHub by taking the following steps:
 
-* Navigating to Settings tab
-* Navigating to Pages tab in the menu on the left
+* Navigating to the Settings tab
+* Navigating to the Pages tab in the menu on the left
 * Selecting Branch from which the site is to be built
 * Clicking Save
 * Receiving confirmation stating that "Your site is published at https://bartoszgebarowski.github.io/repository-name/"
 
-(Side note: It took several minutes, before site gone live)
+(Side note: It took several minutes before the site went live)
 
-Live site can be found at the link below:
+The live site can be found at the link below:
 
 https://bartoszgebarowski.github.io/chrome-rock-band/
 
 ### Clone the Repository locally 
 
 * Click the Code button
-* Navgitate to HTTPS tab
-* Click the clipboard copy icon (message "Copied" should apear instead the icon)
+* Navigate to the HTTPS tab
+* Click the clipboard copy icon (message "Copied" should appear instead of the icon)
 * Choose the IDE with git bash support
 * Use command ```git clone copied-url``` into bash terminal
 
 ### Pull requests
 
-Permission to push changes to repository was not and will not be granted.
+Permission to push changes to the repository was not and will not be granted.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -846,14 +846,14 @@ Permission to push changes to repository was not and will not be granted.
 ### Honorable mentions
 
 * Daisy McGirr - tutor of the Code Institute who helped me through my studies on every occasion and hour
-* David Bowers - fellow student, that shared plethora of information during Project Portfolio 1 webinar
+* David Bowers - a fellow student that shared a plethora of information during the Project Portfolio 1 webinar
 * Anna Sosnowska - a friend, for her constant moral support
-* Tobiasz Chodarewicz - a friend, who inspired me to sign up with Code Institute
-* Developers from CD Projekt RED - for creating an amazing and believable world based on the tabletop role-playing game by Mike Pondsmith
-* Refused - for excellent portrayal of Samurai band. 
+* Tobiasz Chodarewicz - a friend who inspired me to sign up with Code Institute
+* Developers from CD Projekt RED - for creating a fantastic and believable world based on the tabletop role-playing game by Mike Pondsmith
+* Refused - for an excellent portrayal of Samurai band. 
 * You - for visiting my repository and reading the documentation
 
-You all, are truly breathtaking.
+You all are truly breathtaking.
 
 ### Content 
 
