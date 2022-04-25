@@ -2,7 +2,7 @@
 
 ## Site overview
 
-Chrome rock band is a website that treats Samurai band as real, separate entity from Cyberpunk 2077. The game itself is set in a dystopian world, ruled by large corporations and full of social inequalities. 
+Chrome rock band is a website that treats Samurai band as real, separate entity from Cyberpunk 2077. The game itself is set in a dystopian world, ruled by large corporations, and full of social inequalities. 
 The music in the game was performed by real musicians from Refused, and Johnny Silverhand's appearance was modeled after popular actor Keanu Reeves. He is also Johnny's voice in the game.
 Judging from the monthly Spotify listeners and the views of each song on Youtube, there is a strong incentive to create a website that features Refused alter ego in-game, as many fans of the game seem to have liked this kind of musicians incarnation. This website aims to fulfill, to some extent, this purpose while remaining faithful to the source material. The project was built to answer following, potential users needs:
 
@@ -117,14 +117,7 @@ Material above served as promotional material during E3 event. This is an iconic
             * [Contact face html validation](#contact-face-page-html-validation)
             * [Contact form feedback html validation](#contact-form-feedback-page-html-validation)
         * [W3C CSS Validation Service](#w3c-css-validation-service)
-            * [Error 404 css validation](#error-404-css-validation)
-            * [Landing page css validation](#landing-page-css-validation)
-            * [News page css validation](#news-page-css-validation)
-            * [Gigs page css validation](#gigs-page-css-validation)
-            * [Dorphs page css validation](#dorphs-page-css-validation)
-            * [Band page css validation](#band-page-css-validation)
-            * [Contact face css validation](#contact-face-page-css-validation)
-            * [Contact form feedback css validation](#contact-form-feedback-page-css-validation)
+    * [Bug Fixes](#bug-fixes)
     * [Unfixed Bugs](#unfixed-bugs)
 1. [Deployment](#deployment)
     * [Version control](#version-control)
@@ -148,8 +141,6 @@ These features are common to all pages (besides landing page, that serves specif
 
 Element that is present across all pages. Allows user to easily identify the page, if they have multiple open tabs
 
-[Back to Table of contents](#table-of-contents)
-
 #### Responsive navigation bar
 
 * Contains the logo and links to News page, Gigs page, Dorphs page, Band page and Contact face page
@@ -161,23 +152,17 @@ Element that is present across all pages. Allows user to easily identify the pag
 * Navigation bar: Mobile view
 ![Navigation bar mobile](docs/readme_images/navbar-mobile.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Active page indicator
 
 * Serves as an additional visual indication of which page is currently displayed
 
 ![Active page indicator](docs/readme_images/active-page.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Hover indicator
 
 * Informs the user that it is an interactive element
 
 ![Hover indicator](docs/readme_images/hover-indicator.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Footer
 
@@ -186,25 +171,23 @@ Element that is present across all pages. Allows user to easily identify the pag
 * It serves as quick access to social media and informs that the website was created for educational purposes only
 * A theme icon from font awesome is present as an additional form of indication and visual stimulation
 * The hover effect, for each icon, informs the user that it is an interactive element. It is also related to a specific third-party service
-* Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
 
-[Back to Table of contents](#table-of-contents)
+![Footer: hover effect](docs/readme_images/footer-social-hover.png)
+
+* Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
 
 #### Return to top button: mobile
 
 * It allows mobile users to quickly access the main navigation menu
+* A theme icon from font awesome is present as an additional form of indication and visual stimulation
 
 ![Return to top button: mobile](docs/readme_images/top-mobile.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Content line separator
 
 * The line separator is a visual representation of the structure of a website and allows the user to easily distinguish the beginning and end of content
 
 ![Content line separator](docs/readme_images/content-separator-line.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Error 404 page
 
@@ -222,22 +205,16 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 ![Landing page: Hero Image](docs/readme_images/landing-page-hero-img.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Main button 
 
 * Serves as a link to the news page. As part of an intuitive design principle, it is larger than any other buttons, which suggests that it is more important than other buttons. The hover effect indicates that this is an active element
 * A theme icon from font awesome is present as an additional form of indication and visual stimulation
-
-[Back to Table of contents](#table-of-contents)
 
 ![Landing page: Main button](docs/readme_images/landing-page-main-button.png)
 
 ##### Main button: hover effect
 
 ![Landing page: Main button - hover effect](docs/readme_images/landing-page-main-button-hover.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Social media buttons
 
@@ -247,19 +224,13 @@ Element that is present across all pages. Allows user to easily identify the pag
 * The Hover effect, informs the user that it is an interactive element. It is also related to a specific third-party service
 * Due to the similarity of some colors, the buttons are placed in such a way that similar colors do not lie next to each other
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Social media buttons: desktop view
 
 ![Landing page: Social media buttons - desktop view](docs/readme_images/landing-page-social-links-desktop.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Social media buttons: mobile view
 
 ![Landing page: Social media buttons - mobile view](docs/readme_images/landing-page-social-links-mobile.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Social media buttons: hover effect
 
@@ -273,19 +244,13 @@ Element that is present across all pages. Allows user to easily identify the pag
 * The avatar of Newsman / Administrator and its rank informs the user about the author of the post and is part of the planned account system in the future
     * As part of the responsive design, it changes its position to better suit mobile devices
 
-[Back to Table of contents](#table-of-contents)
-
 #### Newsman avatar 
 
 ![News page: newsman avatar](docs/readme_images/newsman-avatar.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### News page: desktop view
 
 ![News page: desktop view](docs/readme_images/news-page-desktop.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### News page: mobile view
 
@@ -313,37 +278,25 @@ Element that is present across all pages. Allows user to easily identify the pag
 * Spotify player was chosen because of its popularity and user policy. It allows interested users to listen to free samples, and registered users can listen to whole tracks for free 
 * Due to technological limitations, the user is directed to the external, official store for any band related merchandise
 
-[Back to Table of contents](#table-of-contents)
-
 #### Sub navigation menu: desktop view
 
 ![Sub navigation menu: desktop view](docs/readme_images/dorphs-page-sub-navigation-menu-desktop.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Sub navigation menu: mobile view 
 
 ![Sub navigation menu: mobile view](docs/readme_images/dorphs-page-sub-navigation-menu-mobile.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Sub navigation menu: hover effect 
 
 ![Sub navigation menu: hover effect](docs/readme_images/dorphs-page-sub-navigation-menu-hover.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Youtube Player: dorphs page
 
 ![Youtube Player: dorphs page](docs/readme_images/dorphs-page-yt-video-player.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Spotify Player 
 
 ![Spotify Player](docs/readme_images/dorphs-page-spotify-player.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Official Shop
 
@@ -361,17 +314,13 @@ Element that is present across all pages. Allows user to easily identify the pag
 
 ![Band page: desktop view](docs/readme_images/band-page-desktop.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Band page: mobile view
 
 ![Band page: mobile view](docs/readme_images/band-page-mobile.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Info: hover effect
 
-![Band page: infor - hover effect](docs/readme_images/band-page-hover-effect.png)
+![Band page: band member info - hover effect](docs/readme_images/band-page-hover-effect.png)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -411,8 +360,6 @@ Element that is present across all pages. Allows user to easily identify the pag
 * Design that respects source material. It acknowledges Cyberpunk lore, naming conventions used by Cyberpunk 2077 designers. It takes certain liberties only when necessary
 * Design that communicates boring information in an attractive way using slang, anecdotes and familiar associations to the target audience
 * Contact form with feedback message 
-
-[Back to Table of contents](#table-of-contents)
 
 ### Features Left to Implement
 
@@ -456,91 +403,61 @@ https://contrast-grid.eightshapes.com/
 
 <img height="800px" width="600px" alt="Landing page wireframe - desktop" src="docs\readme_images\landing-page-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Landing page: mobile 
 
 <img height="800px" width="600px" alt="Landing page wireframe - mobile" src="docs\readme_images\landing-page-mobile.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### News page: dekstop
 
 <img height="800px" width="600px" alt="News page wireframe - desktop" src="docs\readme_images\news-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### News page: mobile
 
 <img height="800px" width="600px" alt="News page wireframe - mobile" src="docs\readme_images\news-mobile.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### Gigs page: desktop
 
 <img height="800px" width="600px" alt="Gigs page wireframe - desktop" src="docs\readme_images\gigs-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Gigs page: mobile
 
 <img height="800px" width="600px" alt="Gigs page wireframe - mobile" src="docs\readme_images\gigs-mobile.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### Dorphs page: desktop
 
 <img height="800px" width="600px" alt="Dorphs page wireframe - desktop" src="docs\readme_images\dorphs-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Dorphs page: mobile
 
 <img height="800px" width="600px" alt="Dorphs page wireframe - mobile" src="docs\readme_images\dorphs-mobile.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### Band page: desktop
 
 <img height="800px" width="600px" alt="Band page wireframe - desktop" src="docs\readme_images\band-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Band page: mobile
 
 <img height="800px" width="600px" alt="Band page wireframe - mobile" src="docs\readme_images\band-mobile.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### Contact page: desktop
 
 <img height="800px" width="600px" alt="Contact page wireframe - desktop" src="docs\readme_images\contact-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Contact page: mobile
 
 <img height="800px" width="600px" alt="Contact page wireframe - mobile" src="docs\readme_images\contact-mobile.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### Contact feedback page: desktop
 
 <img height="800px" width="600px" alt="Contact feedback page wireframe - desktop" src="docs\readme_images\contact-feedback-desktop.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Contact feedback page: mobile
 
 <img height="800px" width="600px" alt="Contact feedback page wireframe - mobile" src="docs\readme_images\contact-feedback-mobile.png">
 
-[Back to Table of contents](#table-of-contents)
-
 #### Error 404 page: desktop
 
 <img height="800px" width="600px" alt="Error 404 page wireframe - desktop" src="docs\readme_images\404-desktop.png">
-
-[Back to Table of contents](#table-of-contents)
 
 #### Error 404 page: mobile
 
@@ -585,13 +502,14 @@ https://contrast-grid.eightshapes.com/
 
 ### Responsiveness 
 
-All pages were tested to support screen sizes from 360px and upwards. 
+All pages were tested to support screen sizes from 320px and upwards. 
 
 Steps to test: 
 
 1. Open the browser and navigate to [Chrome Rock Band](https://bartoszgebarowski.github.io/chrome-rock-band/)
 1. Open the developer tools 
 1. Set to dimensions to responsive 
+1. Set the zoom to 50%
 1. Click the grey bar on the left in order to change the width
 
 Expected: 
@@ -626,43 +544,29 @@ Wave Evaluation Tool was used throughout development process and for final testi
 
 ![Error 404: Lighthouse validation result](docs/testing/404-lighthouse.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Landing page: Lighthouse validation
 
 ![Landing page: Lighthouse validation result](docs/testing/index-lighthouse.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### News page: Lighthouse validation
 
 ![News page: Lighthouse validation result](docs/testing/news-lighthouse.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Gigs page: Lighthouse validation
 
 ![Gigs page: Lighthouse validation result](docs/testing/gigs-lighthouse.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Dorphs page: Lighthouse validation
 
 ![Dorphs page: Lighthouse validation result](docs/testing/dorphs-lighthouse.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Band page: Lighthouse validation
 
 ![Band page: Lighthouse validation result](docs/testing/band-lighthouse.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### Contact face page: Lighthouse validation
 
 ![Contact face: Lighthouse validation result](docs/testing/contact-face-lighthouse.png)
-
-[Back to Table of contents](#table-of-contents)
 
 #### Contact form feedback page: Lighthouse validation
 
@@ -689,7 +593,7 @@ Manual testing was performed, to ensure, that each link/button leads to the corr
 
 #### Social media buttons: footer, landing page
 
-Manual testing was performed, to ensure, that each button to leads to the external website/application, and it opens in a new tab 
+Manual testing was performed, to ensure, that each button leads to the external website/application, and it opens in a new tab 
 
 |Button|Page to load|
 |------|------------|
@@ -704,8 +608,6 @@ Manual testing was performed, to ensure, that each button to leads to the extern
 ##### CDPR gear 
 
 The same test was performed, to ensure, that image leading to the Official CDPR shop, display merchandise, related to Samurai and it opens in a new tab
-
-[Back to Table of contents](#table-of-contents)
 
 #### Error 404 testing 
 
@@ -821,14 +723,9 @@ Actual:
 
 The website works as expected and the form is not being submitted
 
-
-[Back to Table of contents](#table-of-contents)
-
 #### Video/Music player testing
 
 Manual testing was performed, to ensure, that each video/music player will only start working after user input
-
-[Back to Table of contents](#table-of-contents)
 
 ##### Youtube player testing
 
@@ -844,103 +741,53 @@ Console logs were checked to ensure, that they youtube player is working as inte
 
 ![Error 404 html validation result](docs/testing/404-html.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Landing page html validation
 
 ![Landing page html validation result](docs/testing/index-html.png)
-
-[Back to Table of contents](#table-of-contents)
 
 ##### News page html validation
 
 ![News page html validation result](docs/testing/main-html.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Gigs page html validation
 
 ![Gigs page html validation result](docs/testing/gigs-html.png)
-
-[Back to Table of contents](#table-of-contents)
 
 ##### Dorphs page html validation
 
 ![Dorphs page validation result](docs/testing/dorphs-html.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Band page html validation
 
 ![Band page validation result](docs/testing/band-html.png)
-
-[Back to Table of contents](#table-of-contents)
 
 ##### Contact face page html validation
 
 ![Contact face page html validation result](docs/testing/contact-html.png)
 
-[Back to Table of contents](#table-of-contents)
-
 ##### Contact form feedback page html validation
 
 ![Contact form feedback page html validation result](docs/testing/contact-form-feedback-html.png)
 
-[Back to Table of contents](#table-of-contents)
-
 #### W3C CSS Validation Service
-
-##### Error 404 css validation
-
-![Contact form feedback page css validation result](docs/testing/404-css.png)
-
-[Back to Table of contents](#table-of-contents)
- 
-##### Landing page css validation
-
-![Landing page css validation result](docs/testing/index-css.png)
-
-[Back to Table of contents](#table-of-contents)
-
-##### News page css validation
 
 ![News page css validation result](docs/testing/main-css.png)
 
 [Back to Table of contents](#table-of-contents)
  
-##### Gigs page css validation 
+### Bug Fixes
 
-![Gigs page css validation result](docs/testing/gigs-css.png)
-
-[Back to Table of contents](#table-of-contents)
-
-##### Dorphs page css validation
-
-![Dorphs page css validation result](docs/testing/dorphs-css.png)
-
-[Back to Table of contents](#table-of-contents)
-
-##### Band page css validation
-
-![Band page css validation result](docs/testing/band-css.png)
-
-[Back to Table of contents](#table-of-contents)
-
-##### Contact face page css validation
-
-![Contact face page css validation result](docs/testing/contact-css.png)
-
-[Back to Table of contents](#table-of-contents)
-
-##### Contact form feedback page css validation
-
-![Contact form feedback page css validation result](docs/testing/contact-form-feedback-css.png)
-
-[Back to Table of contents](#table-of-contents)
+* Fixed a bug that caused empty spaces, between elements, in the navigation bar
+* Fixed an issue where the Cyberpunk font would not appear where it was supposed to be
+* Fixed a bug that caused vertical scrolling on smaller devices
+* Fixed a bug that caused console errors in the YouTube video player
+* Minor fixes and adjustments
 
 ### Unfixed Bugs 
 
-The website is working as intended. If you find a bug in the application, please send a bug report [here](mailto:myexamplemail.com)
+The author of this webpage, have made every effort to ensure that the website is bug free. Nevertheless, despite of all made efforts, some errors might occur.
+
+If this is a case, and you find any bug, please send a bug report [here](mailto:myexamplemail.com)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -980,8 +827,6 @@ Live site can be found at the link below:
 
 https://bartoszgebarowski.github.io/chrome-rock-band/
 
-[Back to Table of contents](#table-of-contents)
-
 ### Clone the Repository locally 
 
 * Click the Code button
@@ -989,8 +834,6 @@ https://bartoszgebarowski.github.io/chrome-rock-band/
 * Click the clipboard copy icon (message "Copied" should apear instead the icon)
 * Choose the IDE with git bash support
 * Use command ```git clone copied-url``` into bash terminal
-
-[Back to Table of contents](#table-of-contents)
 
 ### Pull requests
 
@@ -1012,13 +855,9 @@ Permission to push changes to repository was not and will not be granted.
 
 You all, are truly breathtaking.
 
-[Back to Table of contents](#table-of-contents)
-
 ### Content 
 
 The content is styled according to the language and naming convention of Cyberpunk 2077. All names, brands, images and videos are the intellectual property of their respective owners.
-
-[Back to Table of contents](#table-of-contents)
 
 ### Media
 * Used across all pages 
